@@ -1,0 +1,3431 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:Europe/Brussels
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3568d21c46e725947a5dc92d1a51af7c
+SUMMARY:[W] Infosessie PDT trajecten (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160926T083000
+DTEND;TZID=Europe/Brussels:20160926T103000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Geldhof Leonie\nin DT/A.0.A1\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD06&year=2016-17&activity_time=1474871400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b70f55c9e756c16f0a06d0615f852c4d
+SUMMARY:[H] IT Trends & Talent II (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160926T103000
+DTEND;TZID=Europe/Brussels:20160926T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45CE&year=2016-17&activity_time=1474878600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0184916d620195f3946779300764cbe0
+SUMMARY:[H] Kick-off Kaai (DT/A.0.001)
+DTSTART;TZID=Europe/Brussels:20160926T130000
+DTEND;TZID=Europe/Brussels:20160926T170000
+LOCATION:DT/A.0.001
+DESCRIPTION:Hoorcollege\ndoor Geldhof Leonie\nin DT/A.0.001\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=48841F3F6E386E7EE37451A8E3C10C92&year=2016-17&activity_time=1474887600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:58024bf3e244e9448142f04422bb1dd4
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160927T083000
+DTEND;TZID=Europe/Brussels:20160927T093000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C4639&year=2016-17&activity_time=1474957800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5e763582ec6b9d31e31aefeceb9cb94a
+SUMMARY:[W] Mobile Enterprise Apps - Inleidingsles (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160928T090000
+DTEND;TZID=Europe/Brussels:20160928T120000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\, Weemaels Steve\nin DT/A.0.A1
+ \naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CC38&year=2016-17&activity_time=1475046000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5dd4d248d34a448b8f1a12e4a032dcc1
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160928T124500
+DTEND;TZID=Europe/Brussels:20160928T134500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C4641&year=2016-17&activity_time=1475059500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:000b9d826f9b5c6a5bff865c94297b0b
+SUMMARY:[H] Java Enterprise (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20160928T134500
+DTEND;TZID=Europe/Brussels:20160928T154500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.A1\naan 3BaDig
+ -X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD2C&year=2016-17&activity_time=1475063100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:945f6e276ef0286a270939c53e7ae631
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20160930T093000
+DTEND;TZID=Europe/Brussels:20160930T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD34&year=2016-17&activity_time=1475220600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:988ac2301b597c25b38b491f67e09e04
+SUMMARY:[H] Final Work - kick-off (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161003T100000
+DTEND;TZID=Europe/Brussels:20161003T123000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/B.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45F9&year=2016-17&activity_time=1475481600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8a65302f9ce9de250f1b63c30cbfcac6
+SUMMARY:[W] ABAP Objects (DT/C.2.209)
+DTSTART;TZID=Europe/Brussels:20161005T083000
+DTEND;TZID=Europe/Brussels:20161005T113000
+LOCATION:DT/C.2.209
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/C.2.209\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=29083E176D24E4BCA6282C85CAB8F277&year=2016-17&activity_time=1475649000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:930725395fe08f92a8f7a4a959de8c3d
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161005T114500
+DTEND;TZID=Europe/Brussels:20161005T124500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C463D&year=2016-17&activity_time=1475660700
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d02903d923300200668c48f9ec03781d
+SUMMARY:[H] Java Enterprise (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161005T134500
+DTEND;TZID=Europe/Brussels:20161005T154500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.A1\naan 3BaDig
+ -X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD2C&year=2016-17&activity_time=1475667900
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f179c9e668c08918060d24dc59d9eef6
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161005T154500
+DTEND;TZID=Europe/Brussels:20161005T164500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C463F&year=2016-17&activity_time=1475675100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:087a62dcb9675bdd3018813558c39e66
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161006T093000
+DTEND;TZID=Europe/Brussels:20161006T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1475739000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8143fc926169bd39dbceed77626c6c2a
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161007T093000
+DTEND;TZID=Europe/Brussels:20161007T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1475825400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ccbbd7e3862ac337c0c81095150a6c72
+SUMMARY:[H] Internship (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161010T090000
+DTEND;TZID=Europe/Brussels:20161010T100000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\nin DT/B.1.101\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C463B&year=2016-17&activity_time=1476082800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:56aa8657467aec5667821a88e32b3637
+SUMMARY:[H] Final Work - onderzoekend handelen (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161010T100000
+DTEND;TZID=Europe/Brussels:20161010T120000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\nin DT/B.1.101\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45FB&year=2016-17&activity_time=1476086400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f02735304e9cb6fc7981d9dca7d20f77
+SUMMARY:[H] Final Work - helpdesk (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161010T130000
+DTEND;TZID=Europe/Brussels:20161010T170000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/B.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45FD&year=2016-17&activity_time=1476097200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d89a495e2f8d30354109b616ba97dc76
+SUMMARY:[W] ABAP Objects (DT/C.2.209)
+DTSTART;TZID=Europe/Brussels:20161012T083000
+DTEND;TZID=Europe/Brussels:20161012T113000
+LOCATION:DT/C.2.209
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/C.2.209\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=29083E176D24E4BCA6282C85CAB8F277&year=2016-17&activity_time=1476253800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c0dfc3280c8b12e1ed002f6643736352
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161012T114500
+DTEND;TZID=Europe/Brussels:20161012T124500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C463D&year=2016-17&activity_time=1476265500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d7919e08a998bbd2541ad5e2191943fc
+SUMMARY:[H] Java Enterprise (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161012T134500
+DTEND;TZID=Europe/Brussels:20161012T154500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.A1\naan 3BaDig
+ -X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD2C&year=2016-17&activity_time=1476272700
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a43f8c7b66f7238e4d2857c9d20ac1e7
+SUMMARY:[H] Internship (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161012T154500
+DTEND;TZID=Europe/Brussels:20161012T164500
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Gillaerts Herman\nin DT/A.0.A1\naan 3BaDig-X
+ -BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C463F&year=2016-17&activity_time=1476279900
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:299de59f432e03720fa1df7bce23098a
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161013T093000
+DTEND;TZID=Europe/Brussels:20161013T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1476343800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5a63f9ebf1a55a57f638569fef1ef778
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161014T093000
+DTEND;TZID=Europe/Brussels:20161014T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1476430200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c0d7d7a27ee114c9d012aef624485118
+SUMMARY:[W] ABAP Objects (DT/A.2.201)
+DTSTART;TZID=Europe/Brussels:20161017T134500
+DTEND;TZID=Europe/Brussels:20161017T164500
+LOCATION:DT/A.2.201
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.201\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=29083E176D24E4BCA6282C85CAB8F275&year=2016-17&activity_time=1476704700
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2382d318eaef397f5eb37a37152f3593
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161019T083000
+DTEND;TZID=Europe/Brussels:20161019T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1476858600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:957324002aa838c2e38be87f00ff80a0
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161020T093000
+DTEND;TZID=Europe/Brussels:20161020T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1476948600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f6e524062328fde011f9fe2968d9df5c
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161021T093000
+DTEND;TZID=Europe/Brussels:20161021T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1477035000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:07f849eb7c5bd4154935a17be9902ff6
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161021T134500
+DTEND;TZID=Europe/Brussels:20161021T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1477050300
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ae6e4029ced597c909693e7e026abc11
+SUMMARY:[H] Final Work - Blend (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161024T100000
+DTEND;TZID=Europe/Brussels:20161024T120000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\nin DT/B.1.101\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45FF&year=2016-17&activity_time=1477296000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e7024fc233f681c9e2e4908f72d0433e
+SUMMARY:[H] Final Work - helpdesk (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161024T130000
+DTEND;TZID=Europe/Brussels:20161024T170000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/B.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45FD&year=2016-17&activity_time=1477306800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0ccee9d1c5425c6542a33a26f34c0999
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161026T083000
+DTEND;TZID=Europe/Brussels:20161026T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1477463400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:11d81da05ea8ad220110a63f93687c29
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161027T093000
+DTEND;TZID=Europe/Brussels:20161027T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1477553400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7c8d1141e3a48e36334c598d2d229c35
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161027T134500
+DTEND;TZID=Europe/Brussels:20161027T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD42&year=2016-17&activity_time=1477568700
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:39ffd354d519ec1aaca156f48aaecc6f
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161028T093000
+DTEND;TZID=Europe/Brussels:20161028T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1477639800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:25111e1308949e7acc54e95004167623
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161028T134500
+DTEND;TZID=Europe/Brussels:20161028T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1477655100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6093b6a5b4b30b784d4f9ffbcd4c3698
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161103T093000
+DTEND;TZID=Europe/Brussels:20161103T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1478161800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a3a9b6620787184b3dfdf410f63210e6
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161103T134500
+DTEND;TZID=Europe/Brussels:20161103T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD42&year=2016-17&activity_time=1478177100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d96f06fbf55493a8c9785ce3d025cac3
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161104T093000
+DTEND;TZID=Europe/Brussels:20161104T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1478248200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5cba31d25a19420e2dbc6f0d557fd028
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161104T134500
+DTEND;TZID=Europe/Brussels:20161104T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1478263500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3f2cf0f84559b62a3cad9f3861d29a96
+SUMMARY:[W] Java Enterprise  (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161109T083000
+DTEND;TZID=Europe/Brussels:20161109T113000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.2.204\naan 3BaDi
+ g-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=68AD9DB2852D71A32D12C2ACE95B3D0A&year=2016-17&activity_time=1478676600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c0007b55a01a9546a2482f25b8313d0b
+SUMMARY:[H] Final Work - helpdesk (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20161114T130000
+DTEND;TZID=Europe/Brussels:20161114T170000
+LOCATION:DT/B.1.101
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/B.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=EEA33A88861F4F6ECC6A3A8B000C45FD&year=2016-17&activity_time=1479124800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3981008efa31836685e8065187cd364a
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161116T083000
+DTEND;TZID=Europe/Brussels:20161116T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1479281400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c6a351680b4b1629189be1d7b215e9e5
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161116T133000
+DTEND;TZID=Europe/Brussels:20161116T150000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=1DCD80A5526164C2B73A6A29BCADBD49&year=2016-17&activity_time=1479299400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:81869950184bc4337e3c812e6e19cf9b
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161117T093000
+DTEND;TZID=Europe/Brussels:20161117T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD36&year=2016-17&activity_time=1479371400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e7376f61ab67a8b65eb399a5a10ac6e3
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161117T134500
+DTEND;TZID=Europe/Brussels:20161117T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD38&year=2016-17&activity_time=1479386700
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7e868a28fbb43254b41588eb71940305
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161123T083000
+DTEND;TZID=Europe/Brussels:20161123T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1479886200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7f0fa1dd6f3eb690f9d625ae8baef10b
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161124T093000
+DTEND;TZID=Europe/Brussels:20161124T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD36&year=2016-17&activity_time=1479976200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a08a332276138501ae5f1eb8ab4fb9a3
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161124T134500
+DTEND;TZID=Europe/Brussels:20161124T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD38&year=2016-17&activity_time=1479991500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b0bfb1e0210411a333e28c67dc5df476
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161125T093000
+DTEND;TZID=Europe/Brussels:20161125T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1480062600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b59ca1132e0a4bec5f79f5dc7b8990fb
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161125T134500
+DTEND;TZID=Europe/Brussels:20161125T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1480077900
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2815b7e8823de72d48f4a73801058574
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161130T083000
+DTEND;TZID=Europe/Brussels:20161130T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1480491000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:21ceda3fe5fa5bbcda2e03c3461191cf
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161130T123000
+DTEND;TZID=Europe/Brussels:20161130T153000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=E368F83FB4107CBD114F8D769E621DC7&year=2016-17&activity_time=1480505400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a0acb209e65bfb958b8071fa9b7f344b
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161201T093000
+DTEND;TZID=Europe/Brussels:20161201T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD36&year=2016-17&activity_time=1480581000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:87c20ca6d398728c8c50a0049eab151e
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161201T134500
+DTEND;TZID=Europe/Brussels:20161201T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD38&year=2016-17&activity_time=1480596300
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:23098f35c3458fe84152f3e64dcdd692
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161202T093000
+DTEND;TZID=Europe/Brussels:20161202T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1480667400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9cbed367376b7ddd938585bfcfe51c25
+SUMMARY:[H] Final Work - helpdesk (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161205T130000
+DTEND;TZID=Europe/Brussels:20161205T170000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/A.0.A1\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B2057702BD2A83A3E55E718961D7DAC9&year=2016-17&activity_time=1480939200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4e98b5df40c0f3e3f7e42a154c523ea5
+SUMMARY:[W] Java Enterprise  (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161207T083000
+DTEND;TZID=Europe/Brussels:20161207T113000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Van Ryckegem Kevin\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD29&year=2016-17&activity_time=1481095800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:315433925d8bc49da9c80b9d403c3fc1
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161208T093000
+DTEND;TZID=Europe/Brussels:20161208T123000
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD3D&year=2016-17&activity_time=1481185800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:07bc808871b70e384d350da3eb3ff560
+SUMMARY:[W] Mobile Enterprise Apps (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161208T134500
+DTEND;TZID=Europe/Brussels:20161208T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Dhooge Annick\nin DT/A.2.204\naan 3BaDig-X-B
+ IT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD42&year=2016-17&activity_time=1481201100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:795e8bf7309deb8bc865e0efdb63782c
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161209T093000
+DTEND;TZID=Europe/Brussels:20161209T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1481272200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:980a12548747f214943c800e148c5db9
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161209T134500
+DTEND;TZID=Europe/Brussels:20161209T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1481287500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8d2dd36473dc7342f4d33451c9605ef2
+SUMMARY:[W] ABAP Objects (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20161215T134500
+DTEND;TZID=Europe/Brussels:20161215T164500
+LOCATION:DT/A.2.204
+DESCRIPTION:Werkcollege\ndoor Weemaels Steve\nin DT/A.2.204\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD38&year=2016-17&activity_time=1481805900
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0f733c0cde27fbc8001fade6fbbd4744
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161216T093000
+DTEND;TZID=Europe/Brussels:20161216T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1481877000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:39fe94bd7949d10b10aaac8836e44a62
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161216T134500
+DTEND;TZID=Europe/Brussels:20161216T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1481892300
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3d75e1f270cda893686d48b4188b3ac1
+SUMMARY:[W] Small Business Project (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20161223T093000
+DTEND;TZID=Europe/Brussels:20161223T123000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Werkcollege\ndoor Benoit Christophe\nin DT/A.0.A1\naan 3BaDig-
+ X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD4B&year=2016-17&activity_time=1482481800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4a86fdcd3a47dfb9fc1f28c8bdb69df5
+SUMMARY:[W] Database Server Management (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20161223T134500
+DTEND;TZID=Europe/Brussels:20161223T164500
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/A.0.0011 pczaal\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=000CA645CF3D155F5A3DD1FE55F3CD15&year=2016-17&activity_time=1482497100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:977ab619a78978dd66c37cc75e6b1753
+SUMMARY:[W] Database Server Management (DT/C.2.209)
+DTSTART;TZID=Europe/Brussels:20170112T083000
+DTEND;TZID=Europe/Brussels:20170112T113000
+LOCATION:DT/C.2.209
+DESCRIPTION:Werkcollege\ndoor Vanneuville Karine\nin DT/C.2.209\naan 3BaDi
+ g-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=E39448560D66FDC692064EB4C1C6DEE5&year=2016-17&activity_time=1484206200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6985da59588678aecb344b9776ece981
+SUMMARY:[Ex V] Internship - indienen verslag (vervroegd afstuderen) (DT/A.
+ 2.218)
+DTSTART;TZID=Europe/Brussels:20170116T114500
+DTEND;TZID=Europe/Brussels:20170116T120000
+LOCATION:DT/A.2.218
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\nin DT/A.2.218\naan 3
+ BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFAFD&year=2016-17&activity_time=1484563500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a4eae81d221ed28e43470d9f104ceafd
+SUMMARY:[Ex V] Final Work - indienen verslag (vervroegd afstuderen) (DT/A.
+ 2.218)
+DTSTART;TZID=Europe/Brussels:20170116T114500
+DTEND;TZID=Europe/Brussels:20170116T120000
+LOCATION:DT/A.2.218
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\nin DT/A.2.218\naan 3
+ BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFAF5&year=2016-17&activity_time=1484563500
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:fbaba674329bdd584a5d84452708a4db
+SUMMARY:[Ex V] Java Enterprise - examen (DT/C.2.209)
+DTSTART;TZID=Europe/Brussels:20170116T123000
+DTEND;TZID=Europe/Brussels:20170116T153000
+LOCATION:DT/C.2.209
+DESCRIPTION:Examen - vaardigheid\ndoor Siroyt Danny\, Van Ryckegem Kevin\n
+ in DT/C.2.209\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFB04&year=2016-17&activity_time=1484566200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:1f64b3d4191cee6ca3afca3768f262c3
+SUMMARY:[W] ABAP Objects - examen (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20170120T083000
+DTEND;TZID=Europe/Brussels:20170120T140000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Werkcollege\ndoor Hambrouck Wim\, Siroyt Danny\, Vanderzijpen 
+ Frauke\, Weemaels Steve\nin DT/A.0.0011 pczaal\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFBEB&year=2016-17&activity_time=1484897400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5d798102936c67287aefc7b2a53921e5
+SUMMARY:[Ex V] Internship - indienen verslag (vervroegd afstuderen) (DT/A.
+ 2.218)
+DTSTART;TZID=Europe/Brussels:20170122T211500
+DTEND;TZID=Europe/Brussels:20170122T213000
+LOCATION:DT/A.2.218
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\nin DT/A.2.218\naan 3
+ BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFD1F&year=2016-17&activity_time=1485116100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:cf1f32ffd49aa8af4160586d6dcbbecd
+SUMMARY:[Ex V] Database Server Management - examen (DT/A.0.0011 pczaal)
+DTSTART;TZID=Europe/Brussels:20170123T083000
+DTEND;TZID=Europe/Brussels:20170123T163000
+LOCATION:DT/A.0.0011 pczaal
+DESCRIPTION:Examen - vaardigheid\ndoor Siroyt Danny\, Vanneuville Karine\n
+ in DT/A.0.0011 pczaal\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFC50&year=2016-17&activity_time=1485156600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0d21a807d23ad098af4e0410483a3c39
+SUMMARY:[Ex V] Mobile Enterprise Apps - examen (DT/A.2.204)
+DTSTART;TZID=Europe/Brussels:20170130T083000
+DTEND;TZID=Europe/Brussels:20170130T163000
+LOCATION:DT/A.2.204
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\, Siroyt Danny\nin DT
+ /A.2.204\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFCC9&year=2016-17&activity_time=1485761400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2e30fd6c1eefd910941efd513b1c74d7
+SUMMARY:[Ex V] IT Trends & Talent II - presentatie (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20170202T083000
+DTEND;TZID=Europe/Brussels:20170202T163000
+LOCATION:DT/B.1.101
+DESCRIPTION:Examen - vaardigheid\ndoor Benoit Christophe\, Gillaerts Herma
+ n\, Hambrouck Wim\nin DT/B.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFD17&year=2016-17&activity_time=1486020600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:576d19dafb7f520288a19fd59c0bbd0c
+SUMMARY:[Ex V] Internship - verdediging (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20170202T083000
+DTEND;TZID=Europe/Brussels:20170202T163000
+LOCATION:DT/B.1.101
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\nin DT/B.1.101\naan 3
+ BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFD21&year=2016-17&activity_time=1486020600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d7cfbf8768c4bf87f13ee44331918e7b
+SUMMARY:[Ex V] Final Work - presentatie (DT/A.0.A1\, DT/A.0.A2)
+DTSTART;TZID=Europe/Brussels:20170202T083000
+DTEND;TZID=Europe/Brussels:20170202T163000
+LOCATION:DT/A.0.A1\, DT/A.0.A2
+DESCRIPTION:Examen - vaardigheid\ndoor Benoit Christophe\, Bruylandt Krist
+ ien\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, 
+ Hambrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Ka
+ rine\, Wante Jan\, Weemaels Steve\nin DT/A.0.A1\, DT/A.0.A2\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFCF2&year=2016-17&activity_time=1486020600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:943766d2aecda41d23e75c1cfc0d9ad7
+SUMMARY:[Ex V] Final Work - presentatie (DT/A.0.A1\, DT/A.0.A2)
+DTSTART;TZID=Europe/Brussels:20170203T083000
+DTEND;TZID=Europe/Brussels:20170203T163000
+LOCATION:DT/A.0.A1\, DT/A.0.A2
+DESCRIPTION:Examen - vaardigheid\ndoor Benoit Christophe\, Bruylandt Krist
+ ien\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, 
+ Hambrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Ka
+ rine\, Wante Jan\, Weemaels Steve\nin DT/A.0.A1\, DT/A.0.A2\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFD0B&year=2016-17&activity_time=1486107000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:95d54597f34768f52938f191619b9f4c
+SUMMARY:[Ex V] Internship - verdediging (DT/B.1.101)
+DTSTART;TZID=Europe/Brussels:20170203T083000
+DTEND;TZID=Europe/Brussels:20170203T163000
+LOCATION:DT/B.1.101
+DESCRIPTION:Examen - vaardigheid\ndoor Dhooge Annick\nin DT/B.1.101\naan 3
+ BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=609D5CB0833114F076C665DAD20BFD2B&year=2016-17&activity_time=1486107000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4b35f9f55f2a21ca79d75269e53b7629
+SUMMARY:[H] Final Work - helpdesk (DT/A.0.A3)
+DTSTART;TZID=Europe/Brussels:20170213T130000
+DTEND;TZID=Europe/Brussels:20170213T170000
+LOCATION:DT/A.0.A3
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/A.0.A3\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C46400&year=2016-17&activity_time=1486987200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f81ac9f7d7b763eb7ad1fa0bc1337f65
+SUMMARY:[H] Final Work - Blend (DT/A.1.A7)
+DTSTART;TZID=Europe/Brussels:20170227T100000
+DTEND;TZID=Europe/Brussels:20170227T120000
+LOCATION:DT/A.1.A7
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\nin DT/A.1.A7\naan 3BaDig-X-BI
+ T
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C46410&year=2016-17&activity_time=1488186000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e10f12231362d6192cd4a5e24a1ed62f
+SUMMARY:[H] Final Work - helpdesk (DT/A.0.A3)
+DTSTART;TZID=Europe/Brussels:20170227T130000
+DTEND;TZID=Europe/Brussels:20170227T170000
+LOCATION:DT/A.0.A3
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/A.0.A3\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C46400&year=2016-17&activity_time=1488196800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9e320dc251864296be7fd8ed73599cf5
+SUMMARY:[H] Final Work - helpdesk (DT/A.1.A5)
+DTSTART;TZID=Europe/Brussels:20170327T130000
+DTEND;TZID=Europe/Brussels:20170327T170000
+LOCATION:DT/A.1.A5
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/A.1.A5\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C46452&year=2016-17&activity_time=1490612400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:15b7b2d83017d90b1ec554b2eeecf4df
+SUMMARY:[H] Career Launch (DT/A.0.A1)
+DTSTART;TZID=Europe/Brussels:20170327T133000
+DTEND;TZID=Europe/Brussels:20170327T163000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\, Gerrits Joeri\nin DT/A.0.A1\
+ naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C4645E&year=2016-17&activity_time=1490614200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:eb60a2e39885b396728f1c37a50b33d2
+SUMMARY:[H] Final Work - Blend (DT/B.2.201\, DT/B.2.208)
+DTSTART;TZID=Europe/Brussels:20170424T100000
+DTEND;TZID=Europe/Brussels:20170424T120000
+LOCATION:DT/B.2.201\, DT/B.2.208
+DESCRIPTION:Hoorcollege\ndoor Dhooge Annick\nin DT/B.2.201\, DT/B.2.208\na
+ an 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C4642C&year=2016-17&activity_time=1493020800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3b7fe7d91c4ce58680b57c39d42d56fd
+SUMMARY:[H] Final Work - helpdesk (DT/A.1.A5)
+DTSTART;TZID=Europe/Brussels:20170424T130000
+DTEND;TZID=Europe/Brussels:20170424T170000
+LOCATION:DT/A.1.A5
+DESCRIPTION:Hoorcollege\ndoor Benoit Christophe\, Bruylandt Kristien\, Dej
+ onckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Hambrouck
+  Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Karine\, Wa
+ nte Jan\, Weemaels Steve\nin DT/A.1.A5\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=B0AEACE16229548575BDCB8557C46452&year=2016-17&activity_time=1493031600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b7946e403afe62e8138dacfe47e8345c
+SUMMARY:[Ex S] Final Work - indienen verslag op studentensecretariaat (DT/
+ A.1.101)
+DTSTART;TZID=Europe/Brussels:20170612T154500
+DTEND;TZID=Europe/Brussels:20170612T160000
+LOCATION:DT/A.1.101
+DESCRIPTION:Examen - schriftelijk\ndoor Benoit Christophe\, Bruylandt Kris
+ tien\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\,
+  Hambrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville K
+ arine\, Wante Jan\, Weemaels Steve\nin DT/A.1.101\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6CF3&year=2016-17&activity_time=1497275100
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:99ba16590f7805a1460b0d354fee0365
+SUMMARY:[Ex M] IT Trends & Talent II - presentatie (uurregeling) (DT/A.0.A
+ 1)
+DTSTART;TZID=Europe/Brussels:20170614T083000
+DTEND;TZID=Europe/Brussels:20170614T163000
+LOCATION:DT/A.0.A1
+DESCRIPTION:Examen - mondeling\ndoor Benoit Christophe\, Gillaerts Herman\
+ , Hambrouck Wim\nin DT/A.0.A1\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6D09&year=2016-17&activity_time=1497421800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7a9177e6cd621a302f805a3f4f217608
+SUMMARY:[Ex S] Internship - indienen verslag (DT/A.1.101)
+DTSTART;TZID=Europe/Brussels:20170614T154500
+DTEND;TZID=Europe/Brussels:20170614T160000
+LOCATION:DT/A.1.101
+DESCRIPTION:Examen - schriftelijk\ndoor Dhooge Annick\nin DT/A.1.101\naan 
+ 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6DA8&year=2016-17&activity_time=1497447900
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6e3c84ab2bccf3c1891989cf03d688da
+SUMMARY:[Ex M] Internship - presentatie (uurregeling) (DT/A.2.218\, DT/A.2
+ .221)
+DTSTART;TZID=Europe/Brussels:20170619T083000
+DTEND;TZID=Europe/Brussels:20170619T163000
+LOCATION:DT/A.2.218\, DT/A.2.221
+DESCRIPTION:Examen - mondeling\ndoor Dhooge Annick\nin DT/A.2.218\, DT/A.2
+ .221\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6DE0&year=2016-17&activity_time=1497853800
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4f14cc5f689ccb7affba893e25b22be2
+SUMMARY:[Ex M] Internship - presentatie (uurregeling) (DT/A.0.A3\, DT/A.0.
+ A4)
+DTSTART;TZID=Europe/Brussels:20170620T083000
+DTEND;TZID=Europe/Brussels:20170620T163000
+LOCATION:DT/A.0.A3\, DT/A.0.A4
+DESCRIPTION:Examen - mondeling\ndoor Dhooge Annick\nin DT/A.0.A3\, DT/A.0.
+ A4\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6DF9&year=2016-17&activity_time=1497940200
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a5a131d3878de540b54c8a371ef09116
+SUMMARY:[Ex M] Internship - presentatie (uurregeling) (DT/A.0.A3\, DT/A.0.
+ A4)
+DTSTART;TZID=Europe/Brussels:20170621T083000
+DTEND;TZID=Europe/Brussels:20170621T163000
+LOCATION:DT/A.0.A3\, DT/A.0.A4
+DESCRIPTION:Examen - mondeling\ndoor Dhooge Annick\nin DT/A.0.A3\, DT/A.0.
+ A4\naan 3BaDig-X-BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6E04&year=2016-17&activity_time=1498026600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f221b0dfeba11a6391e7bbf0fa822fb0
+SUMMARY:[Ex M] Final Work - presentatie (uurregeling) (DT/A.2.218\, DT/A.2
+ .221)
+DTSTART;TZID=Europe/Brussels:20170622T083000
+DTEND;TZID=Europe/Brussels:20170622T163000
+LOCATION:DT/A.2.218\, DT/A.2.221
+DESCRIPTION:Examen - mondeling\ndoor Benoit Christophe\, Bruylandt Kristie
+ n\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Ha
+ mbrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Kari
+ ne\, Wante Jan\, Weemaels Steve\nin DT/A.2.218\, DT/A.2.221\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6E0D&year=2016-17&activity_time=1498113000
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0d3f366f9a15383e71ab766c1675b6e0
+SUMMARY:[Ex M] Final Work - presentatie (uurregeling) (DT/A.2.218\, DT/A.2
+ .221)
+DTSTART;TZID=Europe/Brussels:20170623T083000
+DTEND;TZID=Europe/Brussels:20170623T163000
+LOCATION:DT/A.2.218\, DT/A.2.221
+DESCRIPTION:Examen - mondeling\ndoor Benoit Christophe\, Bruylandt Kristie
+ n\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Ha
+ mbrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Kari
+ ne\, Wante Jan\, Weemaels Steve\nin DT/A.2.218\, DT/A.2.221\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6E1D&year=2016-17&activity_time=1498199400
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8d3d71687ee1cad402c5b68c6d5ab72f
+SUMMARY:[Ex M] Final Work - presentatie (uurregeling) (DT/A.2.218\, DT/A.2
+ .221)
+DTSTART;TZID=Europe/Brussels:20170626T083000
+DTEND;TZID=Europe/Brussels:20170626T163000
+LOCATION:DT/A.2.218\, DT/A.2.221
+DESCRIPTION:Examen - mondeling\ndoor Benoit Christophe\, Bruylandt Kristie
+ n\, Dejonckheere Ruben\, Dhooge Annick\, Drabbé Bram\, Gerrits Joeri\, Ha
+ mbrouck Wim\, Van Den Broek Johan\, Vanderzijpen Frauke\, Vanneuville Kari
+ ne\, Wante Jan\, Weemaels Steve\nin DT/A.2.218\, DT/A.2.221\naan 3BaDig-X-
+ BIT
+URL:https://desiderius.ehb.be/index.php?application=Ehb%5CApplication%5CCa
+ lendar%5CExtension%5CSyllabusPlus&syllabus_action=UserEventViewer&activity
+ _id=561A8B167423F5762417DDB07F7D6E2F&year=2016-17&activity_time=1498458600
+ &user_id=49998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:63ecac5f875a3100602cea6371003c7e
+SUMMARY:Samenvatting zelfanalyse
+DTSTART;TZID=Europe/Brussels:20161030T182000
+DTEND;TZID=Europe/Brussels:20161030T182000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Samenvatting van zelfanalyse onderdelen schematisch opgelijst:
+  je kernkwadrant\, antwoord op de 4W&#39\;s\, je persoonlijke SWOT. Daarna
+  aangevuld met inzicht in je beroepskeuze(test).
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Assignment&p
+ ublication=432192
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:96030eea03768e278a60e5a51505c0ef
+SUMMARY:Indienen CV en motivatie(brief/mail)
+DTSTART;TZID=Europe/Brussels:20161030T182900
+DTEND;TZID=Europe/Brussels:20161030T182900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Uploaden van je CV en motivatiebrief/mail voor gekozen vacatur
+ e/stagebedrijf.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Assignment&p
+ ublication=432252
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:23bd2f081f1c1827db581282c53893e4
+SUMMARY:indienen LinkedIn profiel
+DTSTART;TZID=Europe/Brussels:20161030T222500
+DTEND;TZID=Europe/Brussels:20161030T222500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Maak een profiel aan op LinkedIn of verbeter&nbsp\;je bestaand
+  profiel en upload de pdf ervan. Een professioneel LinkedIn profiel is een
+  must om je als junior aan de markt te presenteren. Lees de 10 tips als in
+ spiratie\, te vinden in Documenten - Sollicitatietraining. Succes!
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Assignment&p
+ ublication=457563
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7507e71cb9e2bb384f312cc60003572a
+SUMMARY:Indienen taak IP-adresberekening
+DTSTART;TZID=Europe/Brussels:20150109T235900
+DTEND;TZID=Europe/Brussels:20150109T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Beste studenten\,\n\nDe volgende opgaven uit het werkcollege1\
+ n\n8.1.2.8 Lab - Converting IPv4 Addresses to Binary\n\n8.1.4.8 Lab - Iden
+ tifying IPv4 Addresses\n\n&nbsp\;\n\nkunnen hier ingediend worden tem vrij
+ dag 9 januari 2015.\n\n&nbsp\;\n\nPrettig eindejaar\,\n\n&nbsp\;\n\nStijn.
+ 
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=11483&tool=Assignment&
+ publication=171597
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c66f3cce0061c4481e54530b8bdcf817
+SUMMARY:Oefeningen SQL
+DTSTART;TZID=Europe/Brussels:20150308T235900
+DTEND;TZID=Europe/Brussels:20150308T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=11488&tool=Assignment&
+ publication=181621
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2a64896ee903a1df8247aa875e9e6717
+SUMMARY:Extra oefeningen SQL
+DTSTART;TZID=Europe/Brussels:20150331T235900
+DTEND;TZID=Europe/Brussels:20150331T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Hier kan je de gemaakte extra oefeningen uploaden.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=11488&tool=Assignment&
+ publication=190103
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:07bc9919a9dac8a1440dcbf1a22169db
+SUMMARY:Indienen code webproject tweede zittijd
+DTSTART;TZID=Europe/Brussels:20150828T171000
+DTEND;TZID=Europe/Brussels:20150828T171000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Hier dien je jouw code in &nbsp\;3 dagen voor de verdediging
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=11492&tool=Assignment&
+ publication=200513
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ba4b7b9b3cfea4c1dea21c1a563b5b6a
+SUMMARY:Indienen onderzoeksplan donderdag 20/10 9u
+DTSTART;TZID=Europe/Brussels:20161020T090000
+DTEND;TZID=Europe/Brussels:20161020T090000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Beste studenten\,\n\nOp maandag 24/10&nbsp\;van 10-12u&nbsp\;i
+ s er het eerste Blend moment.\n\nAanwezigheid op de Blend is&nbsp\;verplic
+ ht&nbsp\;voor alle studenten Dig-X uit het dagonderwijs.\n\nTer voorbereid
+ ing van dit Blend moment dienen jullie een eerste versie van jullie onderz
+ oeksplan in via deze opdracht. De bachelorproefomschrijving omvat normaal 
+ gezien reeds&nbsp\;de grote lijnen van jouw onderzoeksplan. &nbsp\;Door he
+ t uitwerken van dit plan geef je o.a. de aanpak van jouw onderzoek meer vo
+ rm\, waardoor het ook eenvoudiger wordt om nadien een degelijke planning v
+ oor het uitvoeren van jouw onderzoek op te stellen.&nbsp\;Tijdens het Blen
+ d-moment zal hier op verder gewerkt worden.\n\nEen onderzoeksplan bestaat 
+ uit een probleemstelling en een onderzoeksontwerp\n\nDe probleemstelling b
+ evat de volgende onderdelen:\n\n\n\tHet doel van het onderzoek (wat beoog 
+ ik met het onderzoek?)\n\t&nbsp\;De onderzoeksvragen (welke kennis heb ik 
+ nodig om het doel te bereiken?)\n\n\nHet onderzoeksontwerp heeft op betrek
+ king op:\n\n\n\tHet object van onderzoek (wie of wat onderzoek ik?)\n\t&nb
+ sp\;De methoden van onderzoek (hoe onderzoek ik?\; welke methoden van data
+ verzameling en &ndash\;analyse gebruik ik?)\n\n\nMeer info over het onderz
+ oeksplan vinden jullie terug in het document in bijlage (en slides op Desi
+ derius)&nbsp\;naar aanleiding van de sessie onderzoek binnen de bachelorpr
+ oef.\n\nDe deadline voor indienen is donderdag 20/10&nbsp\;om 9u.\n\nVrien
+ delijke groeten\,\n\n​Annick Dhooge
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Assignment&
+ publication=463113
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:30cdb755bb02f3c85a313dfa6594b250
+SUMMARY:Indienen eerste versie poster voor feedback van promotor
+DTSTART;TZID=Europe/Brussels:20170519T220000
+DTEND;TZID=Europe/Brussels:20170519T220000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Gelieve in deze opdracht tegen 19/5 een eerste versie up te lo
+ aden van jouw poster voor feedback door jouw promotor.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Assignment&
+ publication=557766
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:65889465119dce9c0f0d77d8af883fb4
+SUMMARY:Domeinkeuze
+DTSTART;TZID=Europe/Brussels:20161026T235900
+DTEND;TZID=Europe/Brussels:20161026T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Beargumenteer je domeinkeuze\, kort maar helder.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19562&tool=Assignment&
+ publication=436083
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6d069f1eebb0e1185fb51f888d758a40
+SUMMARY:projectvoorstel
+DTSTART;TZID=Europe/Brussels:20170501T235900
+DTEND;TZID=Europe/Brussels:20170501T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Beschrijf je project en bepaal je doelstellingen\, gebruik hie
+ r bij voorkeur de ter beschikking gestelde template.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19562&tool=Assignment&
+ publication=436086
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f1586da32dfdf5c0ecea93e793736185
+SUMMARY:Portfolio
+DTSTART;TZID=Europe/Brussels:20170502T220700
+DTEND;TZID=Europe/Brussels:20170502T220700
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19562&tool=Assignment&
+ publication=559066
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:bdb8c1b11beac9f995a47bc74230c26d
+SUMMARY:Voorstel werkstuk
+DTSTART;TZID=Europe/Brussels:20161103T090000
+DTEND;TZID=Europe/Brussels:20161103T090000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:De bedoeling is dat je zelf nadenkt over een mogelijk app. Bes
+ chrijf &nbsp\;adhv mockups op maximaal twee A4 wat je juist wil ontwikkele
+ n. Na goedkeuring kan je dan definitief beginnen aan je opdracht.\n\nJe be
+ zorgt het &ldquo\;halve A4-voorstel&ldquo\; voor een app op 3 november 201
+ 6 via de Desiderius opdrachten sectie. Volg hiervoor volgende stappen:\n\n
+ \n\tGa binnen het opleidingsonderdeel Mobile Enterprise Apps naar Opdracht
+ en\n\tKies de opdracht Voorstel voor werkstuk\n\tKies Voeg inzending toe\n
+ \tKies als titel Voorstel Jos Bosmans waarin je liefst Jos Bosmans vervang
+ t door je eigen naam\n\tSelecteer het bestand waarin je de omschrijving he
+ bt gezet en kies Maak\n\n\nIk bezorg je dan feedback via de Desiderius opd
+ rachten-functionaliteit.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19568&tool=Assignment&
+ publication=467340
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:379844f08a231ad7bf3b9054c7ceade5
+SUMMARY:Resultaat Hackaton
+DTSTART;TZID=Europe/Brussels:20161209T163000
+DTEND;TZID=Europe/Brussels:20161209T163000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Kunnen jullie hier onmiddellijk na afloop van de hackaton jull
+ ie resultaat opladen. (export naar zip-bestand uit SAP Web IDE)
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19568&tool=Assignment&
+ publication=509157
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c4e76ecd08d2fbe0b6e4fc353483ec35
+SUMMARY:Finaal werkstuk
+DTSTART;TZID=Europe/Brussels:20170125T120000
+DTEND;TZID=Europe/Brussels:20170125T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:De definitieve versie van je app&nbsp\;dien je in door een&nbs
+ p\;export uit te voeren&nbsp\;in je SAP Web Ide naar .zip&nbsp\;bestand&nb
+ sp\;en dit in te dienen in de opdracht &ldquo\;Finaal werkstuk&rdquo\;.&nb
+ sp\;\n\nVoorzie een README-bestand (bv. Word of&nbsp\;plain&nbsp\;text&nbs
+ p\;bestand) in je root-folder&nbsp\;waarin je meer uitleg geeft over de op
+ bouw van je applicatie&nbsp\;of&nbsp\;ontwikkelomgeving&nbsp\;en waar je b
+ ovendien ook je login-&nbsp\;gegevens vermeld van je SAP Web IDE. Andere&n
+ bsp\;opmerkingen die je van belang acht kan je hier ook altijd in toevoege
+ n.\n\nTer info: aandeel GATEWAY: 60%\, SAPUI5: 40%\n\nDeadline 25/1: 12u
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19568&tool=Assignment&
+ publication=523659
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0dcbe6dd58de2745bba35c28f318af4b
+SUMMARY:Indienen voorstel bachelorproef academiejaar 2017-18
+DTSTART;TZID=Europe/Brussels:20170926T160000
+DTEND;TZID=Europe/Brussels:20170926T160000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:[Opdracht voor studenten die het final work wensen op te nemen
+  in het academiejaar 2017-18]\n\nAls student ben je verantwoordelijk voor 
+ het uitwerken van jouw voorstel. Dit doe je bij voorkeur in samenwerking m
+ et&nbsp\;een bedrijf ( jouw stageplek)&nbsp\;of de&nbsp\;onderzoeksgroep&n
+ bsp\;(https://mobilewearable.ehb.be/projecten/#link_acc-13-16-d). De volge
+ nde regels dienen in ieder geval wel gerespecteerd te worden:\n\n\n\tCompl
+ exe onderwerpen die de samenwerking vereisen van meerdere studenten (event
+ ueel uit de verschillende specialisaties) zijn aan te bevelen.&nbsp\;Je ma
+ g ook een onderwerp kiezen buiten jouw specialisatie.&nbsp\;Ook samenwerki
+ ng met studenten uit de opleiding Multimedia en communicatietechnologie be
+ velen we van harte aan.\n\tJe onderwerp van de bachelorproef kan uiteraard
+  ook een uitbreiding zijn op jouw stage. &nbsp\;Belangrijk is echter wel d
+ at het gaat over&nbsp\;een duidelijk afgebakende opdracht&nbsp\;die ook af
+ zonderlijk ge&euml\;valueerd worden.\n\tOnderwerpen moeten duidelijk omsch
+ reven worden onder de vorm van concrete doelstellingen\, inhoud en beoogde
+  eindresultaten.&nbsp\;Je raadpleegt op voorhand een bedrijf&nbsp\;(met ke
+ nnis in het domein van voorgestelde onderwerp)&nbsp\;of de onderzoeksgroep
+ &nbsp\;om je idee&euml\;n te bespreken of de haalbaarheid af te toetsen. H
+ et is niet de bedoeling om docenten te vragen voor jou een onderwerp uit t
+ e werken. Voorstellen van onderwerpen moeten door jou\, met een creatieve 
+ geest\, opgesteld worden.\n\tWanneer je een onderwerp uitwerkt in samenspr
+ aak met een bedrijf mag er voor de realisatie van je onderwerp&nbsp\;geen 
+ frequente&nbsp\;aanwezigheid vereist zijn in het bedrijf in kwestie. Het F
+ inal Work blijft een zelfstandige oefening\, het bedrijf biedt jou enkel i
+ nhoudelijke sturing. Occasioneel overleg ter plaatse moet kunnen.\n\tWees 
+ je ervan bewust dat een Final Work een werkvolume omvat van&nbsp\;336 uren
+  per student. Het Final Work realiseren met meerdere studenten vergt dus e
+ en onderwerp met een evenredig werkvolume en een&nbsp\;duidelijke taakverd
+ eling.\n\tEen Final Work moet een zekere mate van&nbsp\;innovatie&nbsp\;in
+ houden. Een eenvoudige website of een doordeweekse applicatie zijn voorbee
+ lden van niet-innoverende voorstellen. Deze zullen dan ook zonder meer doo
+ r de bachelorproefcommissie worden afgekeurd.\n\tIn een professionele bach
+ eloropleiding is het vanzelfsprekend dat een onderwerp van Final Work&nbsp
+ \;een praktisch luik&nbsp\;inhoudt. Een literatuurstudie kan enkel toegela
+ ten worden indien een gedeelte van de opdracht een (beperkte) implementati
+ e\, een vergelijkende test of een praktische opstelling is.\n\tBij het ind
+ ienen van het onderwerp moet je erover waken dat alle eindcompetenties van
+  het Final Work kunnen gehaald en bewezen worden.\n\n\nTen laatste op dins
+ dag 26 september&nbsp\;2017 16u&nbsp\;dien je jouw voorstel in. Je gebruik
+ t hiervoor het sjabloon&nbsp\;beschikbaar in deze cursus (onder keuze onde
+ rwerp). &nbsp\;Meer gedetailleerde info over de in te vullen velden in het
+  formulier vind je in het formulier zelf. Enkele voorbeelden zijn ook besc
+ hikbaar in de map keuze onderwerp.\n\nDe ingediende onderwerpen worden na 
+ het indienen besproken in de bachelorproefcommissie en uiterlijk dinsdag 3
+  oktober&nbsp\;2017&nbsp\;krijg je hierop feedback.\n\nStudenten wiens voo
+ rstel door de bachelorproefcommissie als niet voldoende wordt beschouwd\, 
+ krijgen de kans om dit voorstel te herwerken.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=29906&tool=Assignment&
+ publication=562278
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:936b10949f1d38e9157bd791b6d26edd
+SUMMARY:indienen stageverslag
+DTSTART;TZID=Europe/Brussels:20140127T083000
+DTEND;TZID=Europe/Brussels:20140127T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Indienen stageverslag: deadline 12u30 bib
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Calendar&pub
+ lication=379133
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6e939a45d4051b0f63d3578625269f97
+SUMMARY:Indienen stageverslag: uitzondering
+DTSTART;TZID=Europe/Brussels:20140113T083000
+DTEND;TZID=Europe/Brussels:20140113T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Indienen stageverslag in de bib&nbsp\;
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Calendar&pub
+ lication=379136
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a99159dc45572dc7463a991fa4a3c2bf
+SUMMARY:Startdatum stage
+DTSTART;TZID=Europe/Brussels:20160208T083000
+DTEND;TZID=Europe/Brussels:20160222T083000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Je stage begint ten vroegste op maandag 8 februari 2016\, en e
+ indigt dan op vrijdag 30 mei 2016.\n\tJe stage begint ten laatste op maand
+ ag 22 februari 2016\, en eindigt dan op vrijdag 3 juni 2016.\n\tJe stage d
+ uurt minimaal 15 weken aan een regime van 4/5 (op maandag dien je altijd v
+ rij te hebben).\n\tEen buitenlandse stage moet minstens 12 weken voltijds 
+ duren of 15 weken deeltijds (4/5).\n\tJe lentevakantie mag je inplannen vl
+ ak voor of direct na je stageperiode.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Calendar&pub
+ lication=379139
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:797875a2853a7d162f73240f28685bc1
+SUMMARY:Uiterste einddatum stage
+DTSTART;TZID=Europe/Brussels:20160603T190000
+DTEND;TZID=Europe/Brussels:20160603T190100
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:&middot\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;&nbsp\;\n\n\n\tJe 
+ stage begint ten vroegste op maandag 8 februari 2016\, en eindigt dan op v
+ rijdag 30 mei 2016.\n\tJe stage begint ten laatste op maandag 22 februari 
+ 2016\, en eindigt dan op vrijdag 3 juni 2016.\n\tJe stage duurt minimaal 1
+ 5 weken aan een regime van 4/5 (op maandag dien je altijd vrij te hebben).
+ \n\tEen buitenlandse stage moet minstens 12 weken voltijds duren of 15 wek
+ en deeltijds (4/5).\n\tJe lentevakantie mag je inplannen vlak voor of dire
+ ct na je stageperiode.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Calendar&pub
+ lication=379142
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:fcfedb26677ad662670fd364cb831df6
+SUMMARY:Deadline inleveren stageverslag
+DTSTART;TZID=Europe/Brussels:20160608T160000
+DTEND;TZID=Europe/Brussels:20160608T160100
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Je stageverslag dien je uiterlijk op woensdag 8 juni 2016\, 16
+ u00 in op het studentensecretariaat.\n\nVoor de tweede zittijd is de uiter
+ ste indiendatum 16 augustus 2016\, 16u00.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=8952&tool=Calendar&pub
+ lication=379145
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e8da3a0b5189bc7ac531c9f2289075b5
+SUMMARY:Deadline inleveren bachelorproef
+DTSTART;TZID=Europe/Brussels:20150223T123000
+DTEND;TZID=Europe/Brussels:20150223T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Bachelorproefverslag:&nbsp\;inleveren voor 12u30 in de&nbsp\;B
+ ibliotheek\n\n\t&nbsp\;
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=201168
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5d8eb37e6e1b61a216eb4eb222728d04
+SUMMARY:Deadline inleveren keuze
+DTSTART;TZID=Europe/Brussels:20140923T123000
+DTEND;TZID=Europe/Brussels:20140923T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:In de loop van de maand september zal jou gevraagd worden om t
+ en laatste op dinsdag 23 september 2014 een definitieve keuze in te dienen
+ . Specifieke instructies over het indienen van je voorstel zullen bezorgd 
+ worden via de elektronische leeromgeving en via e-mail. Vergeet niet om oo
+ k tijdens de vakantieperiode je e-mails op regelmatige basis op te volgen.
+  De ingediende onderwerpen worden na het indienen besproken in de bachelor
+ proefcommissie en de beslissing wordt je meegedeeld v&oacute\;&oacute\;r d
+ insdag 30 september 2014.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=201169
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a922aa85f523cf3e7c6cf59aec2aeee9
+SUMMARY:Deadline final work Afstandsonderwijs
+DTSTART;TZID=Europe/Brussels:20150615T120000
+DTEND;TZID=Europe/Brussels:20150615T120100
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Het verslag wordt door een jury ge&euml\;valueerd op inhoud\, 
+ vormgeving en taalgebruik. Het resultaat wordt niet overgedragen naar de t
+ weede zittijd. Het verslag moet op het studentensecretariaat ingediend wor
+ den v&oacute\;&oacute\;r maandag 15 juni 2015\, 12u00\, en dit volgens de 
+ modaliteiten beschreven in de richtlijnen en gecommuniceerd via de elektro
+ nische leeromgeving. Indien er geen verslag wordt ingediend wordt er geen 
+ score toegekend aan het opleidingsonderdeel.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=201170
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:31d41ff5a112b7736c38cc2d6c70317a
+SUMMARY:Blend Onderzoeksplan
+DTSTART;TZID=Europe/Brussels:20161024T100000
+DTEND;TZID=Europe/Brussels:20161024T120000
+LOCATION:B.101
+DESCRIPTION:Blend onderzoeksplan
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=471390
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:bae64167457fa60bb25a8596c93ad799
+SUMMARY:Helpdesk 2
+DTSTART;TZID=Europe/Brussels:20161024T130000
+DTEND;TZID=Europe/Brussels:20161024T170000
+LOCATION:B.101
+DESCRIPTION:Helpdesk 2:\n\nFinaliseren bachelorproefomschrijving\, besprek
+ en onderzoeksplan\, planning en aanpak\n\n&nbsp\;
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=471396
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b42db9a17613a13ae7f4bc2ec8c3f7ff
+SUMMARY:Helpdesk 3
+DTSTART;TZID=Europe/Brussels:20161114T130000
+DTEND;TZID=Europe/Brussels:20161114T170000
+LOCATION:B.101
+DESCRIPTION:Helpdesk 3
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=12706&tool=Calendar&pu
+ blication=471399
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4f533364af0b09e87f95a2c2d64943ad
+SUMMARY:Indienen werkstuk
+DTSTART;TZID=Europe/Brussels:20151218T235800
+DTEND;TZID=Europe/Brussels:20151218T235900
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:zie de studie informatiefiche van&nbsp\;IT Infrastructure I vo
+ or meer info.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=16034&tool=Calendar&pu
+ blication=252793
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:25d938c4f8f120aa900593e907139527
+SUMMARY:Evaluatie Fertile ground Yen Jacobs
+DTSTART;TZID=Europe/Brussels:20161014T101500
+DTEND;TZID=Europe/Brussels:20161014T111500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Vrijdag 11/10/2016&nbsp\;10:15&nbsp\;- fertile ground
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=453633
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7d1109aa37f0f61ea6c57eedb3fa3903
+SUMMARY:Evaluatie Fertile ground Kristof Cappellen
+DTSTART;TZID=Europe/Brussels:20161014T100000
+DTEND;TZID=Europe/Brussels:20161014T110000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Overlopen zelfinzicht.\n\nOverlopen ide&euml\;en.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=453858
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b4ba9d2b2db6c993a2df1a2510c4d4cb
+SUMMARY:Evaluatie fertile grounds Le Pham Hung Quoc
+DTSTART;TZID=Europe/Brussels:20161014T103000
+DTEND;TZID=Europe/Brussels:20161014T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455052
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:1920ffb1af557903e8a25282cdd88a40
+SUMMARY:Fertile Ground - Jonas De Pelsmaeker
+DTSTART;TZID=Europe/Brussels:20161014T104500
+DTEND;TZID=Europe/Brussels:20161014T114500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455115
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0a6a5280f82522ff3235cffad16b6ae6
+SUMMARY:Evaluatie Fertile Ground - Domien Hennion
+DTSTART;TZID=Europe/Brussels:20161014T110000
+DTEND;TZID=Europe/Brussels:20161014T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Opdracht 1: Fertile ground\n\nDe student ontwikkelt&nbsp\;indi
+ vidueel een aantal business mogelijkheden op basis van zijn eigen&nbsp\;id
+ entiteit\, passie en mogelijkheden. Dit wordt individueel verdedigd.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455244
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8eaa77d75c9b7b2c35f694eace9315c2
+SUMMARY:Evaluatie Fertile ground - Dries lammens
+DTSTART;TZID=Europe/Brussels:20161014T120000
+DTEND;TZID=Europe/Brussels:20161014T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455502
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:bd731489d90bc30fcbe12f43b1241954
+SUMMARY:Evaluatie Fertile Ground - Matthew Bardijn
+DTSTART;TZID=Europe/Brussels:20161014T111500
+DTEND;TZID=Europe/Brussels:20161014T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455715
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4125d71d2f8dd5109549dfd0aa6126a3
+SUMMARY:Evaluatie Fertile Ground - Arnaud Coel
+DTSTART;TZID=Europe/Brussels:20161014T113000
+DTEND;TZID=Europe/Brussels:20161014T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=455982
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b04e20a76e7fb3214e415828c050fdd0
+SUMMARY:Fertile ground: Loic Nigra 13h
+DTSTART;TZID=Europe/Brussels:20161014T130000
+DTEND;TZID=Europe/Brussels:20161014T140000
+LOCATION:EHB - Audi 1
+DESCRIPTION:Beste\,\n\nGraag zou ik mijn proef voor de Fertile Ground op v
+ rijdag 14/10 om 13h maken.\n\nmvg\,\nLoic Nigra
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=456030
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ffa8d0e17d53f6f9688c5284e91de5f1
+SUMMARY:Evaluatie Fertile Ground eddi
+DTSTART;TZID=Europe/Brussels:20161014T114500
+DTEND;TZID=Europe/Brussels:20161014T124500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=456141
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0c572aad329cf0595e45d25182971d37
+SUMMARY:Fertile ground: Jeroen Van den Broeck
+DTSTART;TZID=Europe/Brussels:20161014T123000
+DTEND;TZID=Europe/Brussels:20161014T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=457548
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:24e6d82306d77d02e46fadb4094604d6
+SUMMARY:Evaluatie Fertile Ground Arnaud Gandibleux
+DTSTART;TZID=Europe/Brussels:20161021T093000
+DTEND;TZID=Europe/Brussels:20161021T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=457857
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:287663248fd52a3d885202786a1484b3
+SUMMARY:Evaluatie fertile ground Pierrot Janson
+DTSTART;TZID=Europe/Brussels:20161021T100000
+DTEND;TZID=Europe/Brussels:20161021T113000
+LOCATION:Ehb
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=458307
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c6fe2034f1ab99be83baee057ba9d9f1
+SUMMARY:Fertile ground Turgay Aydemir
+DTSTART;TZID=Europe/Brussels:20161021T101500
+DTEND;TZID=Europe/Brussels:20161021T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=462963
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e0aac81dc752db9b7001177e18a7a66b
+SUMMARY:Fertile ground: Jeroen Van den Broeck
+DTSTART;TZID=Europe/Brussels:20161021T094500
+DTEND;TZID=Europe/Brussels:20161021T110000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=464298
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3af2d304778b2bc16164f956d8311656
+SUMMARY:Fertile Ground Jelka Liveyns
+DTSTART;TZID=Europe/Brussels:20161021T103000
+DTEND;TZID=Europe/Brussels:20161021T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=465432
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:943f06be051d3c87342dc44b671f7007
+SUMMARY:Business Model Canvas - Jonas De Pelsmaeker en Domien Hennion
+DTSTART;TZID=Europe/Brussels:20161021T110000
+DTEND;TZID=Europe/Brussels:20161021T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Opdracht 2: Business Model Canvas\n\nDe&nbsp\;student ontwikke
+ ld samen met een medestudent een Business Model Canvas of Lean&nbsp\;Model
+  Canvas voor een uitgekozen project uit opdracht 1.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=466257
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f1717f6cedb491985a4ee6b0c58cbec0
+SUMMARY:Evaluatie Fertile Ground Jonis de Klerk
+DTSTART;TZID=Europe/Brussels:20161021T111500
+DTEND;TZID=Europe/Brussels:20161021T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=466386
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:fd2e63767ae5b8c6d2ac2544edcbd4ef
+SUMMARY:Fertile Ground Gürkan Kaygun
+DTSTART;TZID=Europe/Brussels:20161021T113000
+DTEND;TZID=Europe/Brussels:20161021T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=467394
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4e75fca2aee2ad933ced5930f7e31800
+SUMMARY:Evaluatie Fertile ground Christophe Swolfs
+DTSTART;TZID=Europe/Brussels:20161021T114500
+DTEND;TZID=Europe/Brussels:20161021T124500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:&nbsp\;\n\n\n\tzelfinzicht&nbsp\;\n\tide&euml\;en.\n\n\n&nbsp\
+ ;
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=468462
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:e8c6f1fe0494badfbb8049846d1681b1
+SUMMARY:evaluatie fertile ground logan bontemps
+DTSTART;TZID=Europe/Brussels:19700101T010000
+DTEND;TZID=Europe/Brussels:19700101T010000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=469011
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7d09f5259f11662a923ce7eb3315db07
+SUMMARY:evaluatie fertile  ground Logan Bontemps
+DTSTART;TZID=Europe/Brussels:20161021T130000
+DTEND;TZID=Europe/Brussels:20161021T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=469014
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c63aaaf630cbb6e369a131fb9f209bf2
+SUMMARY:Evaluatie Business model canvas
+DTSTART;TZID=Europe/Brussels:20161028T100000
+DTEND;TZID=Europe/Brussels:20161028T110000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Kristof Cappellen - Yen Jacobs
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=471306
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6fa542ee586cf6686845f6dca6375a98
+SUMMARY:Evaluatie fertile ground
+DTSTART;TZID=Europe/Brussels:20161028T110000
+DTEND;TZID=Europe/Brussels:20161028T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=472092
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2d4c1bc9bac2621b0400762f41e926ba
+SUMMARY:Evaluatie Fertile Ground Shahzaib Ahmad
+DTSTART;TZID=Europe/Brussels:20161028T093000
+DTEND;TZID=Europe/Brussels:20161028T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=472533
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:09fda01e9d58fddad1c2bc5fc9b7dc7c
+SUMMARY:09:45 Evaluatie Fertile Ground Emery Ishimwe
+DTSTART;TZID=Europe/Brussels:19700101T010000
+DTEND;TZID=Europe/Brussels:19700101T010000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=472836
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:10634a41c15183e9ab89850a7e5c2135
+SUMMARY:Evaluatie Fertile ground Stijn Serruys
+DTSTART;TZID=Europe/Brussels:20161028T094500
+DTEND;TZID=Europe/Brussels:20161028T104500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=473106
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b6f11018629813bf91623af439e52175
+SUMMARY:Evaluatie Fertile Ground - Eli Boey
+DTSTART;TZID=Europe/Brussels:20161028T103000
+DTEND;TZID=Europe/Brussels:20161028T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=473718
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:784f32e770898f5d386a19638ea6b864
+SUMMARY:Evaluatie - Fertile ground: Ruben Walraevens
+DTSTART;TZID=Europe/Brussels:20161028T101500
+DTEND;TZID=Europe/Brussels:20161028T111500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=473862
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:42c9b9adcadece60724ba8176539abfd
+SUMMARY:Fertile Ground Sofian El Mesaoudi
+DTSTART;TZID=Europe/Brussels:20161028T111500
+DTEND;TZID=Europe/Brussels:20161028T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=474210
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:27320220fbe926764467090fd9f3f49e
+SUMMARY:Business Canvas Arnaud Coel & eddi
+DTSTART;TZID=Europe/Brussels:20161028T123000
+DTEND;TZID=Europe/Brussels:20161028T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=474423
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:65fd53c453cc739c3d13907cc8a68381
+SUMMARY:Business Model Canvas - Domien Hennion & Jonas De Pelsmaeker
+DTSTART;TZID=Europe/Brussels:20161028T130000
+DTEND;TZID=Europe/Brussels:20161028T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=474747
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3daf15d6315ef4e2883d415f33e9b933
+SUMMARY:Evaluatie Fertile ground Abdellah Bouhoudane
+DTSTART;TZID=Europe/Brussels:20161104T101500
+DTEND;TZID=Europe/Brussels:20161104T111500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Overlopen fertile ground.\n\nOverlopen ideen
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=475653
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ee45b21bccd8b252fb96f6895b9b36f1
+SUMMARY:Evaluatie Fertile Ground Adeel Amir
+DTSTART;TZID=Europe/Brussels:20161104T100000
+DTEND;TZID=Europe/Brussels:20161104T110000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Overlopen fertile ground.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=475656
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:61611d3de7d5247dec1c5d8bc761c7ba
+SUMMARY:Fertile Ground - Gurkan Kaygun
+DTSTART;TZID=Europe/Brussels:20161104T093000
+DTEND;TZID=Europe/Brussels:20161104T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=475863
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9aafc2d99d09e4405d4744058bc898ad
+SUMMARY:Evaluatie Fertile Ground Wannes Gennar
+DTSTART;TZID=Europe/Brussels:20161104T103000
+DTEND;TZID=Europe/Brussels:20161104T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=475968
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5b6bebe37b719098312b93fa8ff734da
+SUMMARY:Evaluatie Fertile Ground - Kamiel Klumpers
+DTSTART;TZID=Europe/Brussels:20161104T104500
+DTEND;TZID=Europe/Brussels:20161104T114500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=476382
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:00d663a2d16996f865a47e005c29235f
+SUMMARY:Fertile ground Pierrot Janson
+DTSTART;TZID=Europe/Brussels:20161104T110000
+DTEND;TZID=Europe/Brussels:20161104T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=477801
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5df538f795e4c6a5c8ff73de072e1452
+SUMMARY:Fertile Ground - Isaak De Backer
+DTSTART;TZID=Europe/Brussels:20161104T111500
+DTEND;TZID=Europe/Brussels:20161104T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=478230
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:4033c74706d6f5c9f2d285ce29501faa
+SUMMARY:Fertile ground Mouaad Amsalkhir
+DTSTART;TZID=Europe/Brussels:20161104T113000
+DTEND;TZID=Europe/Brussels:20161104T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=478233
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f6c1707c47d0f6784dab65233dfbab93
+SUMMARY:Business Canvas Model Arnaud Gandibleux & Jonis De Klerk
+DTSTART;TZID=Europe/Brussels:20161104T120000
+DTEND;TZID=Europe/Brussels:20161104T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=478998
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:87b2565334402306f96e17f26badc52a
+SUMMARY:Fertile Ground - Emery Ishimwe
+DTSTART;TZID=Europe/Brussels:20161104T124500
+DTEND;TZID=Europe/Brussels:20161104T134500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=479046
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:2f03babd0393bb5297049d128da19f62
+SUMMARY:Fertile ground - Phil Pilgrim
+DTSTART;TZID=Europe/Brussels:19700101T010000
+DTEND;TZID=Europe/Brussels:19700101T010000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=479559
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ec18dfda372e9fdfefe056a1308cfb04
+SUMMARY:Fertile ground - Phil Pilgrim
+DTSTART;TZID=Europe/Brussels:20161104T114500
+DTEND;TZID=Europe/Brussels:20161104T124500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=479562
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:255ba4d665d6be805020e852f4adffd3
+SUMMARY:Business Canvas Model Stijn Serruys en Simon Polle
+DTSTART;TZID=Europe/Brussels:20161104T123000
+DTEND;TZID=Europe/Brussels:20161104T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=480258
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:93c075de1f6ee4b5bdffc2d25d625be2
+SUMMARY:Manish Sharma Fertile Ground
+DTSTART;TZID=Europe/Brussels:20161125T120000
+DTEND;TZID=Europe/Brussels:20161125T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=489354
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:87e604a6082ff2dcf71a647e7045e4fa
+SUMMARY:Evaluatie Fertile Ground - Jonas De Gauquier
+DTSTART;TZID=Europe/Brussels:20161116T130000
+DTEND;TZID=Europe/Brussels:20161116T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=489630
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:34a21846d1fc7fc5ea20559777bbf53e
+SUMMARY:Nicolas Leybaert: Verdediging fertile ground
+DTSTART;TZID=Europe/Brussels:20161116T140000
+DTEND;TZID=Europe/Brussels:20161116T150000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=490254
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:079af2685b4ac3e6be365b2fad600906
+SUMMARY:Evaluatie Confetti Business Plan
+DTSTART;TZID=Europe/Brussels:20161125T110000
+DTEND;TZID=Europe/Brussels:20161125T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Kristof Cappellen en Yen Jacobs
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=491289
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:7be8cc5af8df494fe2472ccb2359444b
+SUMMARY:Business model prototyping Turgay Aydemir & Christophe Swolfs
+DTSTART;TZID=Europe/Brussels:20161125T121000
+DTEND;TZID=Europe/Brussels:20161125T131000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Business model prototyping Turgay Aydemir &amp\; Christophe Sw
+ olfs
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=493017
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a81b801c7da43b0527ed0fec1e93b629
+SUMMARY:Business model canvas - Jonas De gauquier & Phil Pilgrim
+DTSTART;TZID=Europe/Brussels:20161125T103000
+DTEND;TZID=Europe/Brussels:20161125T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=493065
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5da48a73781c55782c9fcbef8cc3cc9c
+SUMMARY:Business model canvas - Emery Ishimwe & Pierrot Janson
+DTSTART;TZID=Europe/Brussels:20161125T110000
+DTEND;TZID=Europe/Brussels:20161125T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=495213
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0db9e5d371cf77417a59d7d4335cc97e
+SUMMARY:Jelka & Matthew Business model Canvas
+DTSTART;TZID=Europe/Brussels:20161125T133000
+DTEND;TZID=Europe/Brussels:20161125T143000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=496644
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:537fd04d704edb1ee507f99c8ada81ca
+SUMMARY:Business model canvas Sofian El Mesaoudi\, Shahzaib Ahmad
+DTSTART;TZID=Europe/Brussels:20161125T123000
+DTEND;TZID=Europe/Brussels:20161125T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=496650
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a2c2277af456026d0b84b8d8f5c61da4
+SUMMARY:Confetti plan
+DTSTART;TZID=Europe/Brussels:20161125T130000
+DTEND;TZID=Europe/Brussels:20161125T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Domien Hennion\n\nJonas De Pelsmaeker
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=497640
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5a0cdf37911e7f5ca7ab4179ecd7c1f0
+SUMMARY:Evaluatie Business Model Canvas Jeroen & Ruben
+DTSTART;TZID=Europe/Brussels:20161125T113000
+DTEND;TZID=Europe/Brussels:20161125T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Jeroen Van den Broeck\n\nRuben Walraevens
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=497817
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:d28b244ab14b2e83a97842676b74ec2a
+SUMMARY:14:50 business model canvas logan bontemps
+DTSTART;TZID=Europe/Brussels:20161125T145000
+DTEND;TZID=Europe/Brussels:20161125T155000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=498162
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0e5c14e1b46a523a560c9c84f2d71552
+SUMMARY:Business model Adeel & Abdellah
+DTSTART;TZID=Europe/Brussels:20161202T100000
+DTEND;TZID=Europe/Brussels:20161202T110000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Business plan met Abdellah Bouhoudane.
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=498486
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c8333e4e9a3177a08ff3aac3b48ea5c8
+SUMMARY:logan bontemps business model canvas
+DTSTART;TZID=Europe/Brussels:20161202T103000
+DTEND;TZID=Europe/Brussels:20161202T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=498531
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ddb9a24dc75334df10a980d5f002032e
+SUMMARY:Business Model Prototyping Manish & Gurkan
+DTSTART;TZID=Europe/Brussels:20161202T120000
+DTEND;TZID=Europe/Brussels:20161202T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=500004
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b974a8448322526f43628df00b89131d
+SUMMARY:Business model canvas Sofian El Mesaoudi\, Shahzaib Ahmad
+DTSTART;TZID=Europe/Brussels:20161202T110000
+DTEND;TZID=Europe/Brussels:20161202T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=500085
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0336b833a48b2c3505f0097dbeced12a
+SUMMARY:Verdediging Confettiplan Arnaud Gandibleux & Jonis De Klerk
+DTSTART;TZID=Europe/Brussels:20161202T093000
+DTEND;TZID=Europe/Brussels:20161202T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=500667
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9f2025963509cef4750faaac68aed5b7
+SUMMARY:Verdediging Business Model Canvas Wannes Gennar & Loic Nigra 9h45
+ 
+DTSTART;TZID=Europe/Brussels:20161202T094500
+DTEND;TZID=Europe/Brussels:20161202T104500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=501342
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:926e3c671bb7e2f9dde8a81b10c8b2d8
+SUMMARY:Business Model Prototyping Isaak & Mouaad
+DTSTART;TZID=Europe/Brussels:20161202T130000
+DTEND;TZID=Europe/Brussels:20161202T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=502191
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:c266455728f24dfb135a5e5d892c7fac
+SUMMARY:Confetti plan - eddi & Arnaud
+DTSTART;TZID=Europe/Brussels:20161202T113000
+DTEND;TZID=Europe/Brussels:20161202T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=502524
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f9f4d9bff19f188763c81017d3a99879
+SUMMARY:Verdediging confettiplan Stijn Serruys en Simon Polle
+DTSTART;TZID=Europe/Brussels:19700101T010000
+DTEND;TZID=Europe/Brussels:19700101T010000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=502776
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8f7af2195e45c1d4e67fe79de9becbf1
+SUMMARY:Verdediging confettiplan (simon & stijn)
+DTSTART;TZID=Europe/Brussels:20161209T093000
+DTEND;TZID=Europe/Brussels:20161209T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=502779
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:fa8d612dc87b5f42c0f409885d63842b
+SUMMARY:Verdediging Business Model Canvas Dries & Nicolas
+DTSTART;TZID=Europe/Brussels:20161202T120000
+DTEND;TZID=Europe/Brussels:20161202T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=503613
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:66a9e795a8a64774100c28c87a7a6a10
+SUMMARY:Fertile Grounds - Yordi Geerts
+DTSTART;TZID=Europe/Brussels:20161202T123000
+DTEND;TZID=Europe/Brussels:20161202T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=503619
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:1633c73ae571967448e571b920b59f66
+SUMMARY:Pitch Domien Hennion & Jonas De Pelsmaeker
+DTSTART;TZID=Europe/Brussels:20161216T120000
+DTEND;TZID=Europe/Brussels:20161216T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Pitch Domien Hennion &amp\; Jonas De Pelsmaeker
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506409
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9d23a302638079441239fea9b51d7d5a
+SUMMARY:Confettiplan - Phil en Jonas
+DTSTART;TZID=Europe/Brussels:20161214T130000
+DTEND;TZID=Europe/Brussels:20161214T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506523
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:60c9ec4c4c6eb7fe549b5bfa745efa64
+SUMMARY:Business Model Canvas + Confettiplan
+DTSTART;TZID=Europe/Brussels:20161214T133000
+DTEND;TZID=Europe/Brussels:20161214T143000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:We zullen de businness model opnieuw presenteren + Confettipla
+ n met Adeel Amir
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506607
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ad3167442104423ab5613aec27dffb18
+SUMMARY:logan bontemps confetti business plan
+DTSTART;TZID=Europe/Brussels:20161214T140000
+DTEND;TZID=Europe/Brussels:20161214T150000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506658
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:8607f91ff5b6145666856d78a8296141
+SUMMARY:Evaluatie Pitch
+DTSTART;TZID=Europe/Brussels:20161214T143000
+DTEND;TZID=Europe/Brussels:20161214T153000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Yen Jacobs en Kristof Cappellen
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506781
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5b8009ef84020c18cacdcdc88e99057e
+SUMMARY:Pitch eddi & Arnaud
+DTSTART;TZID=Europe/Brussels:20161214T150000
+DTEND;TZID=Europe/Brussels:20161214T160000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506787
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:5e7aa622cae9b4fa868813bf22c35cd1
+SUMMARY:Verdediging confetti plan - Stijn & Simon
+DTSTART;TZID=Europe/Brussels:20161214T153000
+DTEND;TZID=Europe/Brussels:20161214T163000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=506958
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:69def5d934c618846330e7f3246d335a
+SUMMARY:Confetti plan Pierrot Emery
+DTSTART;TZID=Europe/Brussels:20161214T134500
+DTEND;TZID=Europe/Brussels:20161214T144500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=507318
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:81ce3db76cec8603eff87ab5ce8d317a
+SUMMARY:Confetti plan Jeroen en Ruben
+DTSTART;TZID=Europe/Brussels:20161214T160000
+DTEND;TZID=Europe/Brussels:20161214T170000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=507891
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:9cdf834dda7bc3e4bbeaf3eec644197b
+SUMMARY:Confettiplan - Jelka en Matthew
+DTSTART;TZID=Europe/Brussels:20161214T161500
+DTEND;TZID=Europe/Brussels:20161214T171500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=508245
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:68a83e14307cc392439cfb7b946f2333
+SUMMARY:Pitch Arnaud Gandibleux & Jonis De Klerk
+DTSTART;TZID=Europe/Brussels:20161216T113000
+DTEND;TZID=Europe/Brussels:20161216T123000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=508374
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f20b244f267ac32b900f8e136707cadf
+SUMMARY:Business Model Canvas + Confettiplan | Kamiel Klumpers + Eli Boey
+ 
+DTSTART;TZID=Europe/Brussels:20161216T093000
+DTEND;TZID=Europe/Brussels:20161216T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=508833
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:72678de550462ca7f5eb6b1e2c32bacf
+SUMMARY:Confettiplan Turgay Christophe
+DTSTART;TZID=Europe/Brussels:20161214T140000
+DTEND;TZID=Europe/Brussels:20161214T150000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=509706
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:3b25aa3ecac79ea7b663219301056504
+SUMMARY:14h Confetti plan Wannes Gennar & Loic Nigra
+DTSTART;TZID=Europe/Brussels:20161214T140000
+DTEND;TZID=Europe/Brussels:20161214T150000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=509772
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ecb6f367acb24f23e91551b019607bc2
+SUMMARY:Isaak & Mouaad Confetti plan
+DTSTART;TZID=Europe/Brussels:20161216T123000
+DTEND;TZID=Europe/Brussels:20161216T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=511707
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:90b496ee2d3594869cd477468bba6369
+SUMMARY:Bespreking (kort) Business Model Canvas + Confettiplan
+DTSTART;TZID=Europe/Brussels:20161214T140000
+DTEND;TZID=Europe/Brussels:20161214T150000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Nicolas &amp\; Dries
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=511848
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:45ace8fc8bd349f25c3897ca7cb78de2
+SUMMARY:Confettiplan - Sofian El Mesaoudi\, Shahzaib Ahmad
+DTSTART;TZID=Europe/Brussels:20161216T130000
+DTEND;TZID=Europe/Brussels:20161216T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=512268
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f427626ac43bbbf0657b6a2cdb45d64c
+SUMMARY:Business Model Canvas
+DTSTART;TZID=Europe/Brussels:20161214T143000
+DTEND;TZID=Europe/Brussels:20161214T153000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Evaluatie Business Model Canvas - Yordi Geerts
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=512292
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:a79cebabde7da55414ac9ee14ae0bf5f
+SUMMARY:Pitch Wannes Gennar & Loic Nigra
+DTSTART;TZID=Europe/Brussels:20161216T120000
+DTEND;TZID=Europe/Brussels:20161216T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=513864
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6c8f470a83156b76f265102bda2f8466
+SUMMARY:Pitch Stijn & Simon
+DTSTART;TZID=Europe/Brussels:20161216T110000
+DTEND;TZID=Europe/Brussels:20161216T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=513951
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:48c3a1aad751add53f82a881be26be6f
+SUMMARY:Pitch Isaak & Mouaad
+DTSTART;TZID=Europe/Brussels:20161223T093000
+DTEND;TZID=Europe/Brussels:20161223T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514089
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:af825192fe403bf96af9d671439da8bf
+SUMMARY:Confetti Plan + Pitch Manish & Gurkan
+DTSTART;TZID=Europe/Brussels:20161223T150000
+DTEND;TZID=Europe/Brussels:20161223T160000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514134
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b92f48af92c770993744ed856bd527ed
+SUMMARY:Confettiplan Matthew en Jelka
+DTSTART;TZID=Europe/Brussels:20161216T120000
+DTEND;TZID=Europe/Brussels:20161216T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514140
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:143de9b7a5a49fa2f660e083c5be4fbd
+SUMMARY:Pitching Emery en Pierrot
+DTSTART;TZID=Europe/Brussels:20161223T120000
+DTEND;TZID=Europe/Brussels:20161223T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514221
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:406cccf1fbb9c35f61a030bda7c269ce
+SUMMARY:Pitch - Sofian El Mesaoudi\, Shahzaib Ahmad
+DTSTART;TZID=Europe/Brussels:20161223T104500
+DTEND;TZID=Europe/Brussels:20161223T114500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514224
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:bccd94bc12bfd1fc5843b504853597b6
+SUMMARY:Pitch Pierrot & Emery
+DTSTART;TZID=Europe/Brussels:20161223T110000
+DTEND;TZID=Europe/Brussels:20161223T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514230
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0e543a60916d6d3417e4d6cce49098bb
+SUMMARY:Pitch Adeel & Abdellah Bouhoudane
+DTSTART;TZID=Europe/Brussels:20161223T103000
+DTEND;TZID=Europe/Brussels:20161223T113000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514326
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:0ecadd27db479bde537be012ecfce635
+SUMMARY:Confettiplan - Yordi Geerts
+DTSTART;TZID=Europe/Brussels:20161216T110000
+DTEND;TZID=Europe/Brussels:20161216T120000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Verdediging confettiplan - Yordi Geerts
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=514542
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:ab0a28929218162c5ddc07debcfcef48
+SUMMARY:Pitch - Phil & Jonas
+DTSTART;TZID=Europe/Brussels:20161223T123000
+DTEND;TZID=Europe/Brussels:20161223T133000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516156
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:929a8dfca5e29e58e63da458310a573e
+SUMMARY:Pitch Jeroen Van den Broeck & Ruben Walraevens
+DTSTART;TZID=Europe/Brussels:20161223T111500
+DTEND;TZID=Europe/Brussels:20161223T121500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516594
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:21cd1bfd138b07a6280af78316b01331
+SUMMARY:pitch logan bontemps
+DTSTART;TZID=Europe/Brussels:20161223T120000
+DTEND;TZID=Europe/Brussels:20161223T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516597
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:09d0b81f33991e59b8ff3319581e3e8d
+SUMMARY:Pitch Turgay Christophe
+DTSTART;TZID=Europe/Brussels:20161223T114500
+DTEND;TZID=Europe/Brussels:20161223T124500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516774
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f917e79cdb356b389b16a90e675b3726
+SUMMARY:Pitch Wannes Gennar & Loic Nigra
+DTSTART;TZID=Europe/Brussels:20161223T121500
+DTEND;TZID=Europe/Brussels:20161223T131500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516798
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:b51f29d69564c4a81c798b764799e0d2
+SUMMARY:confettiplan verdedingen: Dries + Nicolas
+DTSTART;TZID=Europe/Brussels:20161221T130000
+DTEND;TZID=Europe/Brussels:20161221T140000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=516861
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:f2f0a831d111b9e8bb6853959eb3b45b
+SUMMARY:Pitch Jelka & Matthew
+DTSTART;TZID=Europe/Brussels:20161223T124500
+DTEND;TZID=Europe/Brussels:20161223T134500
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=518034
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:6ec35d3467e1935bc6a63b01cb85a098
+SUMMARY:Confettiplan + Pitch - Yordi Geerts
+DTSTART;TZID=Europe/Brussels:20161223T120000
+DTEND;TZID=Europe/Brussels:20161223T130000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for LOCATION proper
+ ty. Removing entire property:
+DESCRIPTION:Confettiplan + Pitch - Yordi Geerts
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=518736
+END:VEVENT
+BEGIN:VEVENT
+CREATED;TZID=Europe/Brussels:20170616T110616
+DTSTAMP;TZID=Europe/Brussels:20170616T110616
+UID:99ba8648cd8e03194a90d3a4e078cd81
+SUMMARY:confetti plan + pitch: Nicolas Leybaert\, Dries Lammens
+DTSTART;TZID=Europe/Brussels:20161223T093000
+DTEND;TZID=Europe/Brussels:20161223T103000
+X-LIC-ERROR;X-LIC-ERRORTYPE=VALUE-PARSE-ERROR:No value for DESCRIPTION pro
+ perty. Removing entire property:
+URL:https://desiderius.ehb.be/index.php?application=Chamilo%5CApplication%
+ 5CWeblcms&go=CourseViewer&tool_action=Viewer&course=19610&tool=Calendar&pu
+ blication=519159
+END:VEVENT
+END:VCALENDAR

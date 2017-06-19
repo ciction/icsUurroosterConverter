@@ -1,0 +1,2004 @@
+<?xml version="1.0"?>
+<CourseSchedule id="1">
+  <id>0</id>
+  <code>EHB</code>
+  <teacherList id="2">
+    <Teacher id="3">
+      <id>0</id>
+      <code>L.Geldhof</code>
+    </Teacher>
+    <Teacher id="4">
+      <id>1</id>
+      <code>C.Benoit</code>
+    </Teacher>
+    <Teacher id="5">
+      <id>2</id>
+      <code>H.Gillaerts</code>
+    </Teacher>
+    <Teacher id="6">
+      <id>3</id>
+      <code>A.Dhooge_S.Weemaels</code>
+    </Teacher>
+    <Teacher id="7">
+      <id>4</id>
+      <code>K.V.Ryckegem</code>
+    </Teacher>
+    <Teacher id="8">
+      <id>5</id>
+      <code>S.Weemaels</code>
+    </Teacher>
+    <Teacher id="9">
+      <id>6</id>
+      <code>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</code>
+    </Teacher>
+    <Teacher id="10">
+      <id>7</id>
+      <code>A.Dhooge</code>
+    </Teacher>
+    <Teacher id="11">
+      <id>8</id>
+      <code>K.Vanneuville</code>
+    </Teacher>
+    <Teacher id="12">
+      <id>9</id>
+      <code>D.Siroyt_K.V.Ryckegem</code>
+    </Teacher>
+    <Teacher id="13">
+      <id>10</id>
+      <code>W.Hambrouck_D.Siroyt_F.Vanderzijpen_S.Weemaels</code>
+    </Teacher>
+    <Teacher id="14">
+      <id>11</id>
+      <code>D.Siroyt_K.Vanneuville</code>
+    </Teacher>
+    <Teacher id="15">
+      <id>12</id>
+      <code>A.Dhooge_D.Siroyt</code>
+    </Teacher>
+    <Teacher id="16">
+      <id>13</id>
+      <code>C.Benoit_H.Gillaerts_W.Hambrouck</code>
+    </Teacher>
+  </teacherList>
+  <curriculumList id="17">
+    <Curriculum id="18">
+      <id>0</id>
+      <code>DigX3_Bizit</code>
+      <coursesInCurriculum>2</coursesInCurriculum>
+    </Curriculum>
+    <Curriculum id="19">
+      <id>1</id>
+      <code>DigX3_Network</code>
+      <coursesInCurriculum>2</coursesInCurriculum>
+    </Curriculum>
+  </curriculumList>
+  <courseList id="20">
+    <Course id="21">
+      <id>0</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Infosessie_PDT_trajecten__WK</code>
+      <teacher reference="3" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="22" />
+      <studentSize>100</studentSize>
+      <courseDependencies id="23">0</courseDependencies>
+      <courseDependencyCount id="24">0</courseDependencyCount>
+    </Course>
+    <Course id="25">
+      <id>1</id>
+      <urenPerDag>2</urenPerDag>
+      <code>IT_Trends_&amp;_Talent_II__HK</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="26" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="27">0</courseDependencies>
+      <courseDependencyCount id="28">0</courseDependencyCount>
+    </Course>
+    <Course id="29">
+      <id>2</id>
+      <urenPerDag>4</urenPerDag>
+      <code>Kick-off_Kaai__HK</code>
+      <teacher reference="3" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="30" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="31">0</courseDependencies>
+      <courseDependencyCount id="32">0</courseDependencyCount>
+    </Course>
+    <Course id="33">
+      <id>3</id>
+      <urenPerDag>1</urenPerDag>
+      <code>Internship__HK</code>
+      <teacher reference="5" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="34" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="35">0</courseDependencies>
+      <courseDependencyCount id="36">0</courseDependencyCount>
+    </Course>
+    <Course id="37">
+      <id>4</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Mobile_Enterprise_Apps_-_Inleidingsles__WK</code>
+      <teacher reference="6" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="38" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="39">0</courseDependencies>
+      <courseDependencyCount id="40">0</courseDependencyCount>
+    </Course>
+    <Course id="41">
+      <id>5</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Java_Enterprise__HK</code>
+      <teacher reference="7" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="42" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="43">0</courseDependencies>
+      <courseDependencyCount id="44">0</courseDependencyCount>
+    </Course>
+    <Course id="45">
+      <id>6</id>
+      <urenPerDag>3</urenPerDag>
+      <code>ABAP_Objects__WK</code>
+      <teacher reference="8" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="46" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="47">0</courseDependencies>
+      <courseDependencyCount id="48">0</courseDependencyCount>
+    </Course>
+    <Course id="49">
+      <id>7</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Final_Work_-_kick-off__HK</code>
+      <teacher reference="9" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="50" />
+      <studentSize>50</studentSize>
+      <courseDependencies id="51">0</courseDependencies>
+      <courseDependencyCount id="52">0</courseDependencyCount>
+    </Course>
+    <Course id="53">
+      <id>8</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Mobile_Enterprise_Apps__WK</code>
+      <teacher reference="10" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="54" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="55">0</courseDependencies>
+      <courseDependencyCount id="56">0</courseDependencyCount>
+    </Course>
+    <Course id="57">
+      <id>9</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Small_Business_Project__WK</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="58" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="59">0</courseDependencies>
+      <courseDependencyCount id="60">0</courseDependencyCount>
+    </Course>
+    <Course id="61">
+      <id>10</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Final_Work_-_onderzoekend_handelen__HK</code>
+      <teacher reference="10" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="62" />
+      <studentSize>50</studentSize>
+      <courseDependencies id="63">0</courseDependencies>
+      <courseDependencyCount id="64">0</courseDependencyCount>
+    </Course>
+    <Course id="65">
+      <id>11</id>
+      <urenPerDag>4</urenPerDag>
+      <code>Final_Work_-_helpdesk__HK</code>
+      <teacher reference="9" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="66" />
+      <studentSize>50</studentSize>
+      <courseDependencies id="67">0</courseDependencies>
+      <courseDependencyCount id="68">0</courseDependencyCount>
+    </Course>
+    <Course id="69">
+      <id>12</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Java_Enterprise___WK</code>
+      <teacher reference="7" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="70" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="71">0</courseDependencies>
+      <courseDependencyCount id="72">0</courseDependencyCount>
+    </Course>
+    <Course id="73">
+      <id>13</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Database_Server_Management__WK</code>
+      <teacher reference="11" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="74" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="75">0</courseDependencies>
+      <courseDependencyCount id="76">0</courseDependencyCount>
+    </Course>
+    <Course id="77">
+      <id>14</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Final_Work_-_Blend__HK</code>
+      <teacher reference="10" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="78" />
+      <studentSize>50</studentSize>
+      <courseDependencies id="79">0</courseDependencies>
+      <courseDependencyCount id="80">0</courseDependencyCount>
+    </Course>
+    <Course id="81">
+      <id>15</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Java_Enterprise_-_examen__EXV</code>
+      <teacher reference="12" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="82" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="83">0</courseDependencies>
+      <courseDependencyCount id="84">0</courseDependencyCount>
+    </Course>
+    <Course id="85">
+      <id>16</id>
+      <urenPerDag>5</urenPerDag>
+      <code>ABAP_Objects_-_examen__WK</code>
+      <teacher reference="13" />
+      <lectureSize>3</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="86" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="87">0</courseDependencies>
+      <courseDependencyCount id="88">0</courseDependencyCount>
+    </Course>
+    <Course id="89">
+      <id>17</id>
+      <urenPerDag>8</urenPerDag>
+      <code>Database_Server_Management_-_examen__EXV</code>
+      <teacher reference="14" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="90" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="91">0</courseDependencies>
+      <courseDependencyCount id="92">0</courseDependencyCount>
+    </Course>
+    <Course id="93">
+      <id>18</id>
+      <urenPerDag>8</urenPerDag>
+      <code>Mobile_Enterprise_Apps_-_examen__EXV</code>
+      <teacher reference="15" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="94" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="95">0</courseDependencies>
+      <courseDependencyCount id="96">0</courseDependencyCount>
+    </Course>
+    <Course id="97">
+      <id>19</id>
+      <urenPerDag>8</urenPerDag>
+      <code>IT_Trends_&amp;_Talent_II_-_presentatie__EXV</code>
+      <teacher reference="16" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="98" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="99">0</courseDependencies>
+      <courseDependencyCount id="100">0</courseDependencyCount>
+    </Course>
+    <Course id="101">
+      <id>20</id>
+      <urenPerDag>8</urenPerDag>
+      <code>Internship_-_verdediging__EXV</code>
+      <teacher reference="10" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="102" />
+      <studentSize>25</studentSize>
+      <courseDependencies id="103">0</courseDependencies>
+      <courseDependencyCount id="104">0</courseDependencyCount>
+    </Course>
+    <Course id="105">
+      <id>21</id>
+      <urenPerDag>8</urenPerDag>
+      <code>Final_Work_-_presentatie__EXV</code>
+      <teacher reference="9" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="106" />
+      <studentSize>50</studentSize>
+      <courseDependencies id="107">0</courseDependencies>
+      <courseDependencyCount id="108">0</courseDependencyCount>
+    </Course>
+    <Course id="109">
+      <id>22</id>
+      <urenPerDag>1</urenPerDag>
+      <code>EVAL_SmallBusiProject_fertile</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="110" />
+      <studentSize>4</studentSize>
+      <courseDependencies id="111">0</courseDependencies>
+      <courseDependencyCount id="112">0</courseDependencyCount>
+    </Course>
+    <Course id="113">
+      <id>23</id>
+      <urenPerDag>1</urenPerDag>
+      <code>EVAL_SmallBusiProject_BM_Prototype</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="114" />
+      <studentSize>4</studentSize>
+      <courseDependencies id="115">0</courseDependencies>
+      <courseDependencyCount id="116">0</courseDependencyCount>
+    </Course>
+    <Course id="117">
+      <id>24</id>
+      <urenPerDag>1</urenPerDag>
+      <code>EVAL_SmallBusiProject_canvas</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="118" />
+      <studentSize>4</studentSize>
+      <courseDependencies id="119">0</courseDependencies>
+      <courseDependencyCount id="120">0</courseDependencyCount>
+    </Course>
+    <Course id="121">
+      <id>25</id>
+      <urenPerDag>1</urenPerDag>
+      <code>EVAL_SmallBusiProject_confetti</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="122" />
+      <studentSize>4</studentSize>
+      <courseDependencies id="123">0</courseDependencies>
+      <courseDependencyCount id="124">0</courseDependencyCount>
+    </Course>
+    <Course id="125">
+      <id>26</id>
+      <urenPerDag>1</urenPerDag>
+      <code>EVAL_SmallBusiProject_pitch</code>
+      <teacher reference="4" />
+      <lectureSize>3</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>1</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="126" />
+      <studentSize>4</studentSize>
+      <courseDependencies id="127">0</courseDependencies>
+      <courseDependencyCount id="128">0</courseDependencyCount>
+    </Course>
+  </courseList>
+  <courseDependencyList id="129" />
+  <teacherGroups id="130">
+    <TeacherGroup id="131">
+      <id>0</id>
+      <groupedTeachers>A.Dhooge_S.Weemaels</groupedTeachers>
+      <individualTeacher>A.Dhooge</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="132">
+      <id>1</id>
+      <groupedTeachers>A.Dhooge_S.Weemaels</groupedTeachers>
+      <individualTeacher>S.Weemaels</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="133">
+      <id>2</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>C.Benoit</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="134">
+      <id>3</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>K.Bruylandt</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="135">
+      <id>4</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>R.Dejonckheere</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="136">
+      <id>5</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>A.Dhooge</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="137">
+      <id>6</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>B.Drabbé</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="138">
+      <id>7</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>J.Gerrits</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="139">
+      <id>8</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>W.Hambrouck</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="140">
+      <id>9</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>J.VanDenBroek</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="141">
+      <id>10</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>F.Vanderzijpen</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="142">
+      <id>11</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>K.Vanneuville</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="143">
+      <id>12</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>J.Wante</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="144">
+      <id>13</id>
+      <groupedTeachers>C.Benoit_K.Bruylandt_R.Dejonckheere_A.Dhooge_B.Drabbé_J.Gerrits_W.Hambrouck_J.VanDenBroek_F.Vanderzijpen_K.Vanneuville_J.Wante_S.Weemaels</groupedTeachers>
+      <individualTeacher>S.Weemaels</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="145">
+      <id>14</id>
+      <groupedTeachers>D.Siroyt_K.V.Ryckegem</groupedTeachers>
+      <individualTeacher>D.Siroyt</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="146">
+      <id>15</id>
+      <groupedTeachers>D.Siroyt_K.V.Ryckegem</groupedTeachers>
+      <individualTeacher>K.V.Ryckegem</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="147">
+      <id>16</id>
+      <groupedTeachers>W.Hambrouck_D.Siroyt_F.Vanderzijpen_S.Weemaels</groupedTeachers>
+      <individualTeacher>W.Hambrouck</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="148">
+      <id>17</id>
+      <groupedTeachers>W.Hambrouck_D.Siroyt_F.Vanderzijpen_S.Weemaels</groupedTeachers>
+      <individualTeacher>D.Siroyt</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="149">
+      <id>18</id>
+      <groupedTeachers>W.Hambrouck_D.Siroyt_F.Vanderzijpen_S.Weemaels</groupedTeachers>
+      <individualTeacher>F.Vanderzijpen</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="150">
+      <id>19</id>
+      <groupedTeachers>W.Hambrouck_D.Siroyt_F.Vanderzijpen_S.Weemaels</groupedTeachers>
+      <individualTeacher>S.Weemaels</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="151">
+      <id>20</id>
+      <groupedTeachers>D.Siroyt_K.Vanneuville</groupedTeachers>
+      <individualTeacher>D.Siroyt</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="152">
+      <id>21</id>
+      <groupedTeachers>D.Siroyt_K.Vanneuville</groupedTeachers>
+      <individualTeacher>K.Vanneuville</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="153">
+      <id>22</id>
+      <groupedTeachers>A.Dhooge_D.Siroyt</groupedTeachers>
+      <individualTeacher>A.Dhooge</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="154">
+      <id>23</id>
+      <groupedTeachers>A.Dhooge_D.Siroyt</groupedTeachers>
+      <individualTeacher>D.Siroyt</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="155">
+      <id>24</id>
+      <groupedTeachers>C.Benoit_H.Gillaerts_W.Hambrouck</groupedTeachers>
+      <individualTeacher>C.Benoit</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="156">
+      <id>25</id>
+      <groupedTeachers>C.Benoit_H.Gillaerts_W.Hambrouck</groupedTeachers>
+      <individualTeacher>H.Gillaerts</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="157">
+      <id>26</id>
+      <groupedTeachers>C.Benoit_H.Gillaerts_W.Hambrouck</groupedTeachers>
+      <individualTeacher>W.Hambrouck</individualTeacher>
+    </TeacherGroup>
+  </teacherGroups>
+  <dayList id="158">
+    <Day id="159" />
+    <Day id="160">
+      <id>1</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>1</dayIndex>
+      <date id="161">2016-09-27 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>27/09/2016</dateString>
+      <periodList id="162" />
+    </Day>
+    <Day id="163">
+      <id>2</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>2</dayIndex>
+      <date id="164">2016-09-28 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>28/09/2016</dateString>
+      <periodList id="165" />
+    </Day>
+    <Day id="166">
+      <id>3</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>3</dayIndex>
+      <date id="167">2016-09-29 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>29/09/2016</dateString>
+      <periodList id="168" />
+    </Day>
+    <Day id="169">
+      <id>4</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>4</dayIndex>
+      <date id="170">2016-09-30 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>30/09/2016</dateString>
+      <periodList id="171" />
+    </Day>
+    <Day id="172">
+      <id>5</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>5</dayIndex>
+      <date id="173">2016-10-01 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>01/10/2016</dateString>
+      <periodList id="174" />
+    </Day>
+    <Day id="175">
+      <id>6</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>6</dayIndex>
+      <date id="176">2016-10-02 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>02/10/2016</dateString>
+      <periodList id="177" />
+    </Day>
+    <Day id="178">
+      <id>7</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>7</dayIndex>
+      <date id="179">2016-10-03 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>03/10/2016</dateString>
+      <periodList id="180" />
+    </Day>
+    <Day id="181">
+      <id>8</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>8</dayIndex>
+      <date id="182">2016-10-04 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>04/10/2016</dateString>
+      <periodList id="183" />
+    </Day>
+    <Day id="184">
+      <id>9</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>9</dayIndex>
+      <date id="185">2016-10-05 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>05/10/2016</dateString>
+      <periodList id="186" />
+    </Day>
+    <Day id="187">
+      <id>10</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>10</dayIndex>
+      <date id="188">2016-10-06 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>06/10/2016</dateString>
+      <periodList id="189" />
+    </Day>
+    <Day id="190">
+      <id>11</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>11</dayIndex>
+      <date id="191">2016-10-07 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>07/10/2016</dateString>
+      <periodList id="192" />
+    </Day>
+    <Day id="193">
+      <id>12</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>12</dayIndex>
+      <date id="194">2016-10-08 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>08/10/2016</dateString>
+      <periodList id="195" />
+    </Day>
+    <Day id="196">
+      <id>13</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>13</dayIndex>
+      <date id="197">2016-10-09 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>09/10/2016</dateString>
+      <periodList id="198" />
+    </Day>
+    <Day id="199">
+      <id>14</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>14</dayIndex>
+      <date id="200">2016-10-10 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>10/10/2016</dateString>
+      <periodList id="201" />
+    </Day>
+    <Day id="202">
+      <id>15</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>15</dayIndex>
+      <date id="203">2016-10-11 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>11/10/2016</dateString>
+      <periodList id="204" />
+    </Day>
+    <Day id="205">
+      <id>16</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>16</dayIndex>
+      <date id="206">2016-10-12 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>12/10/2016</dateString>
+      <periodList id="207" />
+    </Day>
+    <Day id="208">
+      <id>17</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>17</dayIndex>
+      <date id="209">2016-10-13 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>13/10/2016</dateString>
+      <periodList id="210" />
+    </Day>
+    <Day id="211">
+      <id>18</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>18</dayIndex>
+      <date id="212">2016-10-14 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>14/10/2016</dateString>
+      <periodList id="213" />
+    </Day>
+    <Day id="214">
+      <id>19</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>19</dayIndex>
+      <date id="215">2016-10-15 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>15/10/2016</dateString>
+      <periodList id="216" />
+    </Day>
+    <Day id="217">
+      <id>20</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>20</dayIndex>
+      <date id="218">2016-10-16 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>16/10/2016</dateString>
+      <periodList id="219" />
+    </Day>
+    <Day id="220">
+      <id>21</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>21</dayIndex>
+      <date id="221">2016-10-17 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>17/10/2016</dateString>
+      <periodList id="222" />
+    </Day>
+    <Day id="223">
+      <id>22</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>22</dayIndex>
+      <date id="224">2016-10-18 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>18/10/2016</dateString>
+      <periodList id="225" />
+    </Day>
+    <Day id="226">
+      <id>23</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>23</dayIndex>
+      <date id="227">2016-10-19 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>19/10/2016</dateString>
+      <periodList id="228" />
+    </Day>
+    <Day id="229">
+      <id>24</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>24</dayIndex>
+      <date id="230">2016-10-20 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>20/10/2016</dateString>
+      <periodList id="231" />
+    </Day>
+    <Day id="232">
+      <id>25</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>25</dayIndex>
+      <date id="233">2016-10-21 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>21/10/2016</dateString>
+      <periodList id="234" />
+    </Day>
+    <Day id="235">
+      <id>26</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>26</dayIndex>
+      <date id="236">2016-10-22 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>22/10/2016</dateString>
+      <periodList id="237" />
+    </Day>
+    <Day id="238">
+      <id>27</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>27</dayIndex>
+      <date id="239">2016-10-23 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>23/10/2016</dateString>
+      <periodList id="240" />
+    </Day>
+    <Day id="241">
+      <id>28</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>28</dayIndex>
+      <date id="242">2016-10-24 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>24/10/2016</dateString>
+      <periodList id="243" />
+    </Day>
+    <Day id="244">
+      <id>29</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>29</dayIndex>
+      <date id="245">2016-10-25 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>25/10/2016</dateString>
+      <periodList id="246" />
+    </Day>
+    <Day id="247">
+      <id>30</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>30</dayIndex>
+      <date id="248">2016-10-26 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>26/10/2016</dateString>
+      <periodList id="249" />
+    </Day>
+    <Day id="250">
+      <id>31</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>31</dayIndex>
+      <date id="251">2016-10-27 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>27/10/2016</dateString>
+      <periodList id="252" />
+    </Day>
+    <Day id="253">
+      <id>32</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>32</dayIndex>
+      <date id="254">2016-10-28 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>28/10/2016</dateString>
+      <periodList id="255" />
+    </Day>
+    <Day id="256">
+      <id>33</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>33</dayIndex>
+      <date id="257">2016-10-29 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>29/10/2016</dateString>
+      <periodList id="258" />
+    </Day>
+    <Day id="259">
+      <id>34</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>34</dayIndex>
+      <date id="260">2016-10-30 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>30/10/2016</dateString>
+      <periodList id="261" />
+    </Day>
+    <Day id="262">
+      <id>35</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>35</dayIndex>
+      <date id="263">2016-10-31 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>31/10/2016</dateString>
+      <periodList id="264" />
+    </Day>
+    <Day id="265">
+      <id>36</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>36</dayIndex>
+      <date id="266">2016-11-01 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>01/11/2016</dateString>
+      <periodList id="267" />
+    </Day>
+    <Day id="268">
+      <id>37</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>37</dayIndex>
+      <date id="269">2016-11-02 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>02/11/2016</dateString>
+      <periodList id="270" />
+    </Day>
+    <Day id="271">
+      <id>38</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>38</dayIndex>
+      <date id="272">2016-11-03 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>03/11/2016</dateString>
+      <periodList id="273" />
+    </Day>
+    <Day id="274">
+      <id>39</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>39</dayIndex>
+      <date id="275">2016-11-04 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>04/11/2016</dateString>
+      <periodList id="276" />
+    </Day>
+    <Day id="277">
+      <id>40</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>40</dayIndex>
+      <date id="278">2016-11-05 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>05/11/2016</dateString>
+      <periodList id="279" />
+    </Day>
+    <Day id="280">
+      <id>41</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>41</dayIndex>
+      <date id="281">2016-11-06 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>06/11/2016</dateString>
+      <periodList id="282" />
+    </Day>
+    <Day id="283">
+      <id>42</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>42</dayIndex>
+      <date id="284">2016-11-07 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>07/11/2016</dateString>
+      <periodList id="285" />
+    </Day>
+    <Day id="286">
+      <id>43</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>43</dayIndex>
+      <date id="287">2016-11-08 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>08/11/2016</dateString>
+      <periodList id="288" />
+    </Day>
+    <Day id="289">
+      <id>44</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>44</dayIndex>
+      <date id="290">2016-11-09 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>09/11/2016</dateString>
+      <periodList id="291" />
+    </Day>
+    <Day id="292">
+      <id>45</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>45</dayIndex>
+      <date id="293">2016-11-10 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>10/11/2016</dateString>
+      <periodList id="294" />
+    </Day>
+    <Day id="295">
+      <id>46</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>46</dayIndex>
+      <date id="296">2016-11-11 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>11/11/2016</dateString>
+      <periodList id="297" />
+    </Day>
+    <Day id="298">
+      <id>47</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>47</dayIndex>
+      <date id="299">2016-11-12 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>12/11/2016</dateString>
+      <periodList id="300" />
+    </Day>
+    <Day id="301">
+      <id>48</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>48</dayIndex>
+      <date id="302">2016-11-13 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>13/11/2016</dateString>
+      <periodList id="303" />
+    </Day>
+    <Day id="304">
+      <id>49</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>49</dayIndex>
+      <date id="305">2016-11-14 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>14/11/2016</dateString>
+      <periodList id="306" />
+    </Day>
+    <Day id="307">
+      <id>50</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>50</dayIndex>
+      <date id="308">2016-11-15 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>15/11/2016</dateString>
+      <periodList id="309" />
+    </Day>
+    <Day id="310">
+      <id>51</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>51</dayIndex>
+      <date id="311">2016-11-16 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>16/11/2016</dateString>
+      <periodList id="312" />
+    </Day>
+    <Day id="313">
+      <id>52</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>52</dayIndex>
+      <date id="314">2016-11-17 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>17/11/2016</dateString>
+      <periodList id="315" />
+    </Day>
+    <Day id="316">
+      <id>53</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>53</dayIndex>
+      <date id="317">2016-11-18 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>18/11/2016</dateString>
+      <periodList id="318" />
+    </Day>
+    <Day id="319">
+      <id>54</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>54</dayIndex>
+      <date id="320">2016-11-19 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>19/11/2016</dateString>
+      <periodList id="321" />
+    </Day>
+    <Day id="322">
+      <id>55</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>55</dayIndex>
+      <date id="323">2016-11-20 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>20/11/2016</dateString>
+      <periodList id="324" />
+    </Day>
+    <Day id="325">
+      <id>56</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>56</dayIndex>
+      <date id="326">2016-11-21 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>21/11/2016</dateString>
+      <periodList id="327" />
+    </Day>
+    <Day id="328">
+      <id>57</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>57</dayIndex>
+      <date id="329">2016-11-22 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>22/11/2016</dateString>
+      <periodList id="330" />
+    </Day>
+    <Day id="331">
+      <id>58</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>58</dayIndex>
+      <date id="332">2016-11-23 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>23/11/2016</dateString>
+      <periodList id="333" />
+    </Day>
+    <Day id="334">
+      <id>59</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>59</dayIndex>
+      <date id="335">2016-11-24 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>24/11/2016</dateString>
+      <periodList id="336" />
+    </Day>
+    <Day id="337">
+      <id>60</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>60</dayIndex>
+      <date id="338">2016-11-25 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>25/11/2016</dateString>
+      <periodList id="339" />
+    </Day>
+    <Day id="340">
+      <id>61</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>61</dayIndex>
+      <date id="341">2016-11-26 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>26/11/2016</dateString>
+      <periodList id="342" />
+    </Day>
+    <Day id="343">
+      <id>62</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>62</dayIndex>
+      <date id="344">2016-11-27 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>27/11/2016</dateString>
+      <periodList id="345" />
+    </Day>
+    <Day id="346">
+      <id>63</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>63</dayIndex>
+      <date id="347">2016-11-28 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>28/11/2016</dateString>
+      <periodList id="348" />
+    </Day>
+    <Day id="349">
+      <id>64</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>64</dayIndex>
+      <date id="350">2016-11-29 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>29/11/2016</dateString>
+      <periodList id="351" />
+    </Day>
+    <Day id="352">
+      <id>65</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>65</dayIndex>
+      <date id="353">2016-11-30 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>30/11/2016</dateString>
+      <periodList id="354" />
+    </Day>
+    <Day id="355">
+      <id>66</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>66</dayIndex>
+      <date id="356">2016-12-01 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>01/12/2016</dateString>
+      <periodList id="357" />
+    </Day>
+    <Day id="358">
+      <id>67</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>67</dayIndex>
+      <date id="359">2016-12-02 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>02/12/2016</dateString>
+      <periodList id="360" />
+    </Day>
+    <Day id="361">
+      <id>68</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>68</dayIndex>
+      <date id="362">2016-12-03 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>03/12/2016</dateString>
+      <periodList id="363" />
+    </Day>
+    <Day id="364">
+      <id>69</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>69</dayIndex>
+      <date id="365">2016-12-04 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>04/12/2016</dateString>
+      <periodList id="366" />
+    </Day>
+    <Day id="367">
+      <id>70</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>70</dayIndex>
+      <date id="368">2016-12-05 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>05/12/2016</dateString>
+      <periodList id="369" />
+    </Day>
+    <Day id="370">
+      <id>71</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>71</dayIndex>
+      <date id="371">2016-12-06 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>06/12/2016</dateString>
+      <periodList id="372" />
+    </Day>
+    <Day id="373">
+      <id>72</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>72</dayIndex>
+      <date id="374">2016-12-07 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>07/12/2016</dateString>
+      <periodList id="375" />
+    </Day>
+    <Day id="376">
+      <id>73</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>73</dayIndex>
+      <date id="377">2016-12-08 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>08/12/2016</dateString>
+      <periodList id="378" />
+    </Day>
+    <Day id="379">
+      <id>74</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>74</dayIndex>
+      <date id="380">2016-12-09 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>09/12/2016</dateString>
+      <periodList id="381" />
+    </Day>
+    <Day id="382">
+      <id>75</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>75</dayIndex>
+      <date id="383">2016-12-10 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>10/12/2016</dateString>
+      <periodList id="384" />
+    </Day>
+    <Day id="385">
+      <id>76</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>76</dayIndex>
+      <date id="386">2016-12-11 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>11/12/2016</dateString>
+      <periodList id="387" />
+    </Day>
+    <Day id="388">
+      <id>77</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>77</dayIndex>
+      <date id="389">2016-12-12 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>12/12/2016</dateString>
+      <periodList id="390" />
+    </Day>
+    <Day id="391">
+      <id>78</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>78</dayIndex>
+      <date id="392">2016-12-13 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>13/12/2016</dateString>
+      <periodList id="393" />
+    </Day>
+    <Day id="394">
+      <id>79</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>79</dayIndex>
+      <date id="395">2016-12-14 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>14/12/2016</dateString>
+      <periodList id="396" />
+    </Day>
+    <Day id="397">
+      <id>80</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>80</dayIndex>
+      <date id="398">2016-12-15 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>15/12/2016</dateString>
+      <periodList id="399" />
+    </Day>
+    <Day id="400">
+      <id>81</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>81</dayIndex>
+      <date id="401">2016-12-16 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>16/12/2016</dateString>
+      <periodList id="402" />
+    </Day>
+    <Day id="403">
+      <id>82</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>82</dayIndex>
+      <date id="404">2016-12-17 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>17/12/2016</dateString>
+      <periodList id="405" />
+    </Day>
+    <Day id="406">
+      <id>83</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>83</dayIndex>
+      <date id="407">2016-12-18 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>18/12/2016</dateString>
+      <periodList id="408" />
+    </Day>
+    <Day id="409">
+      <id>84</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>84</dayIndex>
+      <date id="410">2016-12-19 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>19/12/2016</dateString>
+      <periodList id="411" />
+    </Day>
+    <Day id="412">
+      <id>85</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>85</dayIndex>
+      <date id="413">2016-12-20 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>20/12/2016</dateString>
+      <periodList id="414" />
+    </Day>
+    <Day id="415">
+      <id>86</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>86</dayIndex>
+      <date id="416">2016-12-21 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>21/12/2016</dateString>
+      <periodList id="417" />
+    </Day>
+    <Day id="418">
+      <id>87</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>87</dayIndex>
+      <date id="419">2016-12-22 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>22/12/2016</dateString>
+      <periodList id="420" />
+    </Day>
+    <Day id="421">
+      <id>88</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>88</dayIndex>
+      <date id="422">2016-12-23 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>23/12/2016</dateString>
+      <periodList id="423" />
+    </Day>
+    <Day id="424">
+      <id>89</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>89</dayIndex>
+      <date id="425">2016-12-24 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>24/12/2016</dateString>
+      <periodList id="426" />
+    </Day>
+    <Day id="427">
+      <id>90</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>90</dayIndex>
+      <date id="428">2016-12-25 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>25/12/2016</dateString>
+      <periodList id="429" />
+    </Day>
+    <Day id="430">
+      <id>91</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>91</dayIndex>
+      <date id="431">2016-12-26 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>26/12/2016</dateString>
+      <periodList id="432" />
+    </Day>
+    <Day id="433">
+      <id>92</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>92</dayIndex>
+      <date id="434">2016-12-27 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>27/12/2016</dateString>
+      <periodList id="435" />
+    </Day>
+    <Day id="436">
+      <id>93</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>93</dayIndex>
+      <date id="437">2016-12-28 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>28/12/2016</dateString>
+      <periodList id="438" />
+    </Day>
+    <Day id="439">
+      <id>94</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>94</dayIndex>
+      <date id="440">2016-12-29 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>29/12/2016</dateString>
+      <periodList id="441" />
+    </Day>
+    <Day id="442">
+      <id>95</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>95</dayIndex>
+      <date id="443">2016-12-30 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>30/12/2016</dateString>
+      <periodList id="444" />
+    </Day>
+    <Day id="445">
+      <id>96</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>96</dayIndex>
+      <date id="446">2016-12-31 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>31/12/2016</dateString>
+      <periodList id="447" />
+    </Day>
+    <Day id="448">
+      <id>97</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>97</dayIndex>
+      <date id="449">2017-01-01 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>01/01/2017</dateString>
+      <periodList id="450" />
+    </Day>
+    <Day id="451">
+      <id>98</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>98</dayIndex>
+      <date id="452">2017-01-02 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>02/01/2017</dateString>
+      <periodList id="453" />
+    </Day>
+    <Day id="454">
+      <id>99</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>99</dayIndex>
+      <date id="455">2017-01-03 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>03/01/2017</dateString>
+      <periodList id="456" />
+    </Day>
+    <Day id="457">
+      <id>100</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>100</dayIndex>
+      <date id="458">2017-01-04 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>04/01/2017</dateString>
+      <periodList id="459" />
+    </Day>
+    <Day id="460">
+      <id>101</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>101</dayIndex>
+      <date id="461">2017-01-05 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>05/01/2017</dateString>
+      <periodList id="462" />
+    </Day>
+    <Day id="463">
+      <id>102</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>102</dayIndex>
+      <date id="464">2017-01-06 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>06/01/2017</dateString>
+      <periodList id="465" />
+    </Day>
+    <Day id="466">
+      <id>103</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>103</dayIndex>
+      <date id="467">2017-01-07 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>07/01/2017</dateString>
+      <periodList id="468" />
+    </Day>
+    <Day id="469">
+      <id>104</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>104</dayIndex>
+      <date id="470">2017-01-08 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>08/01/2017</dateString>
+      <periodList id="471" />
+    </Day>
+    <Day id="472">
+      <id>105</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>105</dayIndex>
+      <date id="473">2017-01-09 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>09/01/2017</dateString>
+      <periodList id="474" />
+    </Day>
+    <Day id="475">
+      <id>106</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>106</dayIndex>
+      <date id="476">2017-01-10 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>10/01/2017</dateString>
+      <periodList id="477" />
+    </Day>
+    <Day id="478">
+      <id>107</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>107</dayIndex>
+      <date id="479">2017-01-11 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>11/01/2017</dateString>
+      <periodList id="480" />
+    </Day>
+    <Day id="481">
+      <id>108</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>108</dayIndex>
+      <date id="482">2017-01-12 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>12/01/2017</dateString>
+      <periodList id="483" />
+    </Day>
+    <Day id="484">
+      <id>109</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>109</dayIndex>
+      <date id="485">2017-01-13 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>13/01/2017</dateString>
+      <periodList id="486" />
+    </Day>
+    <Day id="487">
+      <id>110</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>110</dayIndex>
+      <date id="488">2017-01-14 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>14/01/2017</dateString>
+      <periodList id="489" />
+    </Day>
+    <Day id="490">
+      <id>111</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>111</dayIndex>
+      <date id="491">2017-01-15 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>15/01/2017</dateString>
+      <periodList id="492" />
+    </Day>
+    <Day id="493">
+      <id>112</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>112</dayIndex>
+      <date id="494">2017-01-16 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>16/01/2017</dateString>
+      <periodList id="495" />
+    </Day>
+    <Day id="496">
+      <id>113</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>113</dayIndex>
+      <date id="497">2017-01-17 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>17/01/2017</dateString>
+      <periodList id="498" />
+    </Day>
+    <Day id="499">
+      <id>114</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>114</dayIndex>
+      <date id="500">2017-01-18 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>18/01/2017</dateString>
+      <periodList id="501" />
+    </Day>
+    <Day id="502">
+      <id>115</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>115</dayIndex>
+      <date id="503">2017-01-19 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>19/01/2017</dateString>
+      <periodList id="504" />
+    </Day>
+    <Day id="505">
+      <id>116</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>116</dayIndex>
+      <date id="506">2017-01-20 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>20/01/2017</dateString>
+      <periodList id="507" />
+    </Day>
+    <Day id="508">
+      <id>117</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>117</dayIndex>
+      <date id="509">2017-01-21 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>21/01/2017</dateString>
+      <periodList id="510" />
+    </Day>
+    <Day id="511">
+      <id>118</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>118</dayIndex>
+      <date id="512">2017-01-22 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>22/01/2017</dateString>
+      <periodList id="513" />
+    </Day>
+    <Day id="514">
+      <id>119</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>119</dayIndex>
+      <date id="515">2017-01-23 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>23/01/2017</dateString>
+      <periodList id="516" />
+    </Day>
+    <Day id="517">
+      <id>120</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>120</dayIndex>
+      <date id="518">2017-01-24 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>24/01/2017</dateString>
+      <periodList id="519" />
+    </Day>
+    <Day id="520">
+      <id>121</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>121</dayIndex>
+      <date id="521">2017-01-25 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>25/01/2017</dateString>
+      <periodList id="522" />
+    </Day>
+    <Day id="523">
+      <id>122</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>122</dayIndex>
+      <date id="524">2017-01-26 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>26/01/2017</dateString>
+      <periodList id="525" />
+    </Day>
+    <Day id="526">
+      <id>123</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>123</dayIndex>
+      <date id="527">2017-01-27 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>27/01/2017</dateString>
+      <periodList id="528" />
+    </Day>
+    <Day id="529">
+      <id>124</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>124</dayIndex>
+      <date id="530">2017-01-28 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>28/01/2017</dateString>
+      <periodList id="531" />
+    </Day>
+    <Day id="532">
+      <id>125</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>125</dayIndex>
+      <date id="533">2017-01-29 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>29/01/2017</dateString>
+      <periodList id="534" />
+    </Day>
+    <Day id="535">
+      <id>126</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>126</dayIndex>
+      <date id="536">2017-01-30 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>30/01/2017</dateString>
+      <periodList id="537" />
+    </Day>
+    <Day id="538">
+      <id>127</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>127</dayIndex>
+      <date id="539">2017-01-31 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>31/01/2017</dateString>
+      <periodList id="540" />
+    </Day>
+    <Day id="541">
+      <id>128</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>128</dayIndex>
+      <date id="542">2017-02-01 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>01/02/2017</dateString>
+      <periodList id="543" />
+    </Day>
+    <Day id="544">
+      <id>129</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>129</dayIndex>
+      <date id="545">2017-02-02 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>02/02/2017</dateString>
+      <periodList id="546" />
+    </Day>
+    <Day id="547">
+      <id>130</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>130</dayIndex>
+      <date id="548">2017-02-03 12:00:00.0 GMT</date>
+      <weekend>false</weekend>
+      <dateString>03/02/2017</dateString>
+      <periodList id="549" />
+    </Day>
+  </dayList>
+</CourseSchedule>

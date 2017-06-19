@@ -1,0 +1,70 @@
+Name: EHB
+Language: NL
+StartDate: 13/02/2017
+Courses: 14
+TeacherGroupCount: 3
+Rooms: 7
+Days: 50
+Periods_per_day: 10
+Curricula: 3
+unavailable_courses: 0
+unavailable_curricula: 0
+unavailable_hours_all: 0
+unavailable_days_all: 0
+DependentCourses: 0
+
+COURSES:
+code                  teacher                        count   minDays   students  minimumDate deadline    maxDays     needPc(optional)  HoursPerDay(optional but with pc)
+OS_HO                 G.Coulommier                  	12 		3		54			/       	/         	/			False			2
+OS_WK                 G.Coulommier                  	12		3		25			/       	/         	/			True			3
+CPP_HO                J.Wante                       	12 		3		54			/       	/         	/			False			4
+CPP_WK                R.Dejonck_K.Bruyl             	12 		3		25			/       	/         	/			True			3
+SoftDesignFund_HO     J.VanDenBroek                 	12 		3		54			/       	/         	/			False			2
+SoftDesignFund_WK     K.Bruylandt_J.VanDenBroek     	12 		3		30			/       	/         	/			True			3
+DatabaseFund_HO       K.Vanneuville                 	12 		3		25			/       	/         	/			False			2
+DatabaseFund_WK       K.Vanneuville                 	12 		3		25			/       	/         	/			True			3
+ProjMan_HO            J.Alen                        	12		3		25			/       	/         	/			False			2
+ProjMan_WK            J.Alen                        	12 		3		25			/       	/         	/			True			3
+Engels_HO             NN                            	12 		3		12			/       	/         	/			False			2
+Engels_WK             NN                            	12 		3		12			/       	/         	/			False			3
+SoftProj_PR           S.Weemaels_K.Bruyl_R.Dejonck  	12 		3		54			/       	/         	/			False			3
+WebProj_PR            K.Vanneuville                 	12 		3		25			/       	/         	/			True			3
+
+TEACHER_GROUPS:
+groupName                   teachers(n)
+R.Dejonck_K.Bruyl           K.Bruylandt_J.VanDenBroek
+K.Bruylandt_J.VanDenBroek   S.Weemaels_K.Bruyl_R.Dejonck
+R.Dejonck_K.Bruyl           S.Weemaels_K.Bruyl_R.Dejonck
+
+ROOMS:
+RoomID  Capacity    PCcount
+A001    70            0
+A002    70            0
+A003    70            0
+A11     20            0
+A202    20           20
+A204    20           20
+C201    30           30
+
+CURRICULA:
+CurriculumID   #Courses     AllMemberCourses(n)
+DigX3_Bizit            12		OS_HO CPP_HO DatabaseFund_HO ProjMan_HO Engels_HO SoftDesignFund_HO OS_WK CPP_WK ProjMan_WK SoftProj_PR Engels_WK WebProj_PR
+DigX3_Network          13		OS_HO CPP_HO SoftDesignFund_HO DatabaseFund_HO ProjMan_HO Engels_HO OS_WK CPP_WK DatabaseFund_WK ProjMan_WK Engels_WK SoftProj_PR WebProj_PR
+DigX3_Software         12		OS_HO CPP_HO SoftDesignFund_HO DatabaseFund_HO ProjMan_HO Engels_HO OS_WK CPP_WK SoftDesignFund_WK ProjMan_WK Engels_WK SoftProj_PR
+
+UNAVAILABILITY_COURSE:
+CourseID        Day(date)    Period
+
+UNAVAILABILITY_CURRICULUM:
+CurriculumID        Day(date)   timeslot(optional)
+
+UNAVAILABLE_HOURS_ALL:
+Day(date)    Period
+
+UNAVAILABLE_DAYS_ALL:
+Day(date)
+
+DEPENDENCIES:
+dependentCourse     courseDependencies(n)
+
+END.
