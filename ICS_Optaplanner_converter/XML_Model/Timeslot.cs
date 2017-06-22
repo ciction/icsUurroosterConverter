@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace ICS_Optaplanner_converter.XML_Model
 {
-    public class Timeslot
+    public class Timeslot: XMLEntity
     {
         public int TimeSlotIndex { get; set; }
+
+
+        public Timeslot(int timeSlotIndex) : base(timeSlotIndex)
+        {
+            TimeSlotIndex = timeSlotIndex;
+        }
     }
 }

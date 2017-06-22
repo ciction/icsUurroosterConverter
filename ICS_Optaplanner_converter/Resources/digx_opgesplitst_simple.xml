@@ -28,27 +28,27 @@
     </Curriculum>
   </curriculumList>
   <courseList id="9">
-    <Course id="10">
-      <id>0</id>
-      <urenPerDag>3</urenPerDag>
-      <code>Java_EE_NW_WK</code>
-      <teacher reference="4"/>
-      <lectureSize>3</lectureSize>
-      <courseType>Werkcollege</courseType>
-      <LectureTime>0</LectureTime>
-      <minWorkingDaySize>1</minWorkingDaySize>
-      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
-      <isPCNeeded>false</isPCNeeded>
-      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
-      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
-      <curriculumList id="11">
-        <Curriculum reference="7"/>
-        <Curriculum reference="8"/>
-      </curriculumList>
-      <studentSize>3</studentSize>
-      <courseDependencies id="12"/>
-      <courseDependencyCount id="13"/>
-    </Course>
+      <Course id="10">
+        <id>0</id>
+        <urenPerDag>3</urenPerDag>
+        <code>Java_EE_NW_WK</code>
+        <teacher reference="4"/>
+        <lectureSize>3</lectureSize>
+        <courseType>Werkcollege</courseType>
+        <LectureTime>0</LectureTime>
+        <minWorkingDaySize>1</minWorkingDaySize>
+        <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+        <isPCNeeded>false</isPCNeeded>
+        <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+        <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+        <curriculumList id="11">
+          <Curriculum reference="7"/>
+          <Curriculum reference="8"/>
+        </curriculumList>
+        <studentSize>3</studentSize>
+        <courseDependencies id="12"/>
+        <courseDependencyCount id="13"/>
+      </Course>
     <Course id="14">
       <id>1</id>
       <urenPerDag>3</urenPerDag>
@@ -259,7 +259,7 @@
       <id>2</id>
       <middayPauzeSlot1>4</middayPauzeSlot1>
       <middayPauzeSlot2>5</middayPauzeSlot2>
-      <dadex>2</dadex>
+      <dayIndex>2</dayIndex>
       <date id="64">2017-06-05 22:00:00.0 UTC</date>
       <weekend>false</weekend>
       <dateString>06/06/2017</dateString>
@@ -329,6 +329,7 @@
     <Timeslot reference="47"/>
     <Timeslot reference="49"/>
   </timeslotList>
+  
   <periodList id="77">
     <Period reference="30"/>
     <Period reference="32"/>
@@ -381,6 +382,7 @@
       <pcCount>15</pcCount>
     </Room>
   </roomList>
+  
   <unavailableDayList id="82">
     <UnavailableDay id="83">
       <id>0</id>
@@ -409,6 +411,7 @@
       <period reference="32"/>
     </UnavailablePeriodPenalty>
   </unavailablePeriodPenaltyList>
+  
   <UnavailableCurriculumDaysList id="91">
     <UnavailableCurriculumDay id="92">
       <id>0</id>

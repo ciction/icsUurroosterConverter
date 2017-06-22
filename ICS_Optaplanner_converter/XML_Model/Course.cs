@@ -1,10 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace ICS_Optaplanner_converter.XML_Model
 {
     public class Course : XMLEntity
     {
+        private List<Curriculum> _curriculumList = new List<Curriculum>();
         public string Code { get; set; }
         public int UrenPerDag { get; set; }
         public Teacher Teacher { get; set; }
@@ -17,7 +19,12 @@ namespace ICS_Optaplanner_converter.XML_Model
         public int FirstPossibleDayIndex { get; set; }
         public int LastPossibleDayIndex { get; set; }
 
-        public List<Curriculum> CurriculumList { get; set; }
+        public List<Curriculum> CurriculumList
+        {
+            get { return _curriculumList; }
+            set { _curriculumList = value; }
+        }
+
         public int StudentSize { get; set; }
         public int CourseDependencies { get; set; }
         public int CourseDependencyCount { get; set; }
@@ -38,7 +45,7 @@ namespace ICS_Optaplanner_converter.XML_Model
             this.MaxWorkingDaySize = int.MaxValue;
             this.IsPcNeeded = false;
             this.FirstPossibleDayIndex = -1;
-            this.LastPossibleDayIndex = int.MaxValue;
+            this.SetLastPossibleDayIndex();
 
             this.CurriculumList = new List<Curriculum>();
             SetStudentSize();
@@ -79,17 +86,47 @@ namespace ICS_Optaplanner_converter.XML_Model
                 StudentSize = 50;
         }
 
+        public void SetLastPossibleDayIndex()
+        {
+            DateTime startCalendarDate = new DateTime(2016, 9, 26);
+            DateTime LastDaySemester1BeforeExams = new DateTime(2016, 12, 23);
+
+
+            if (Code.ToLower().Contains("infosessie") ||
+                Code.ToLower().Contains("kaai") ||
+                Code.ToLower().Contains("trends"))
+            {
+                LastPossibleDayIndex = 0;
+            }
+            else
+            {
+                LastPossibleDayIndex = (int)
+                    (LastDaySemester1BeforeExams - startCalendarDate).TotalDays;
+            }
+        }
 
         private void SetCurricula()
         {
 
-            if (Code.ToLower().Contains("abap"))
+            if (Code.ToLower().Contains("infosessie") ||
+                Code.ToLower().Contains("trends") ||
+                Code.ToLower().Contains("final") ||
+                Code.ToLower().Contains("business") ||
+                Code.ToLower().Contains("kick-off") ||
+                Code.ToLower().Contains("internship"))
+            {
+                CurriculumList.AddRange(Database.CurriculumList);
+            }
+            else if (Code.ToLower().Contains("java") ||
+                     Code.ToLower().Contains("database") ||
+                     Code.ToLower().Contains("mobile"))
             {
                 CurriculumList.Add(Database.CurriculumList.SingleOrDefault(c => c.Code == "DigX3_Bizit"));
+                CurriculumList.Add(Database.CurriculumList.SingleOrDefault(c => c.Code == "DigX3_Network"));
             }
             else
             {
-                CurriculumList.AddRange(Database.CurriculumList);
+                CurriculumList.Add(Database.CurriculumList.SingleOrDefault(c => c.Code == "DigX3_Bizit"));
             }
         }
 
@@ -105,7 +142,8 @@ namespace ICS_Optaplanner_converter.XML_Model
             MaxWorkingDaySize = maxWorkingDaySize;
             IsPcNeeded = isPcNeeded;
             FirstPossibleDayIndex = firstPossibleDayIndex;
-            LastPossibleDayIndex = lastPossibleDayIndex;
+            this.SetLastPossibleDayIndex();
+
 
             this.CurriculumList = new List<Curriculum>();
             SetStudentSize();

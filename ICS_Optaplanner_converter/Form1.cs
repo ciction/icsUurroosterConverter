@@ -17,13 +17,20 @@ namespace ICS_Optaplanner_converter
     public partial class Form1 : Form
     {
         private static int _xmlId = 1;
+        private const int HoursPerDay = 10;
         private static readonly DateTime _startCalendarDate = new DateTime(2016, 9, 26);
         private static readonly DateTime _lastDaySemester1 = new DateTime(2017, 2, 3);
+        private static readonly DateTime LastDaySemester1BeforeExams = new DateTime(2017, 12, 23);
         private int _lastDayIndex = 0;
 
         public Form1()
         {
             InitializeComponent();
+
+            CreateBaseData();
+
+
+
             var icsFile =
                 @"C:\Users\Christophe\Documents\programming\bachelorproef\ICS_Optaplanner_converter\ICS_Optaplanner_converter\ICS_Optaplanner_converter\Resources\EHB Rooster.ics";
             var calendarCollection = Calendar.LoadFromFile(icsFile);
@@ -33,10 +40,11 @@ namespace ICS_Optaplanner_converter
             convertTo_eval_SmallBusiProject(events);
 
             //tab 1
+            int roomIndex = 0;
             foreach (var @event in events)
             {
                 var startdate = @event.Start.Date;
-                
+
                 //ignore semester 2 courses
                 if (startdate > _lastDaySemester1) continue;
 
@@ -46,23 +54,40 @@ namespace ICS_Optaplanner_converter
                 var teacher = @event.Description;
                 @event.Summary = courseCode;
                 if (teacher != String.Empty)
-                    dataGridView1.Rows.Add(courseCode, teacher, @event.Duration, @event.Location, @event.Start, @event.End);
+                    dataGridView1.Rows.Add(courseCode, teacher, @event.Duration, @event.Location, @event.Start,
+                        @event.End);
 
+                //create rooms
+                if (Database.RoomList.FirstOrDefault(r => r.Code == @event.Location) == null)
+                {
+                    Room room = new Room(roomIndex, @event.Location);
+                    Database.RoomList.Add(room);
+                    ++roomIndex;
+                }
 
                 int dayindex = (int)(startdate - _startCalendarDate).TotalDays;
                 if (dayindex > _lastDayIndex) _lastDayIndex = dayindex;
             }
 
+            //create days and periods
+            int periodIndex = 0;
             for (int index = 0; index < _lastDayIndex + 1; index++)
             {
                 if (Database.DayList.FirstOrDefault(c => c.DayIndex == index) == null)
                 {
-                    
                     var day = new Day(index, _startCalendarDate.AddDays(index));
+                    for (int i = 0; i < HoursPerDay; i++)
+                    {
+                        Period period = new Period(periodIndex, day, Database.Timeslots[i]);
+                        day.PeriodList.Add(period);
+                        ++periodIndex;
+                        Database.PeriodList.Add(period);
+                    }
                     Database.DayList.Add(day);
                 }
             }
-          
+
+
 
             //tab 2
             var groupedEvents = events.GroupBy(e => e.Summary).Select(
@@ -81,6 +106,7 @@ namespace ICS_Optaplanner_converter
 
             //tab3
             int courseIndex = 0;
+            int lectureIndex = 0;
             int teacherIndex = 0;
             int teacherGroupIndex = 0;
             foreach (var @event in events)
@@ -104,13 +130,12 @@ namespace ICS_Optaplanner_converter
                 if (startTimeMinutes > 30) startHour += 1;
                 endHour = startHour + durationhours;
 
-                int dayindex = (int) (startdate - _startCalendarDate).TotalDays;
+                int dayindex = (int)(startdate - _startCalendarDate).TotalDays;
 
                 if (teacherCode != String.Empty)
                 {
                     dataGridView3.Rows.Add(courseCode, teacherCode, durationhours, @event.Location, startdate,
                         startHour, endHour, dayindex);
-
 
 
                     if (Database.TeacherList.FirstOrDefault(t => t.Code == teacherCode) == null)
@@ -136,51 +161,103 @@ namespace ICS_Optaplanner_converter
                     if (Database.CoursesList.FirstOrDefault(c => c.Code == courseCode) == null)
                     {
                         //add course and link teacher
-                        var newCourse = new Course(courseIndex, courseCode, Database.TeacherList.FirstOrDefault(t => t.Code == teacherCode));
+                        var newCourse = new Course(courseIndex, courseCode,
+                            Database.TeacherList.FirstOrDefault(t => t.Code == teacherCode));
                         newCourse.UrenPerDag = durationhours;
                         if (location == "DT/A.0.0011")
                         {
                             newCourse.IsPcNeeded = true;
                         }
-                        Database.CoursesList.Add(newCourse);
-                        ++courseIndex;
+                        //negeer it trends and talents
+                        if (!newCourse.Code.Contains("EVAL") && !newCourse.Code.Contains("internship") && !newCourse.Code.Contains("_EX") && !newCourse.Code.Contains("examen"))
+                        {
+                            Database.CoursesList.Add(newCourse);
+                            ++courseIndex;
+                        }
 
                     }
-//
-//
-//                    var durationhours = @event.Duration.Hours;
-//                    var durationMinutes = @event.Duration.Minutes;
-//                    var startTimeMinutes = @event.Start.Minute;
-//                    if (durationMinutes > 30) durationhours += 1;
-//                    if (startTimeMinutes > 30) startHour += 1;
-//                    endHour = startHour + durationhours;
-//
-//                    int dayindex = (int)(startdate - _startCalendarDate).TotalDays;
-//                    if (dayindex > _lastDayIndex) _lastDayIndex = dayindex;
+                    //
+                    //
+                    //                    var durationhours = @event.Duration.Hours;
+                    //                    var durationMinutes = @event.Duration.Minutes;
+                    //                    var startTimeMinutes = @event.Start.Minute;
+                    //                    if (durationMinutes > 30) durationhours += 1;
+                    //                    if (startTimeMinutes > 30) startHour += 1;
+                    //                    endHour = startHour + durationhours;
+                    //
+                    //                    int dayindex = (int)(startdate - _startCalendarDate).TotalDays;
+                    //                    if (dayindex > _lastDayIndex) _lastDayIndex = dayindex;
 
 
-                  
+                    //
+                    //
+                    //lecture
 
 
-//
-//
-                       //lecture
-//                    for (int i = 0; i < durationhours; i++)
-//                    {
-//                        var course = new Course(courseIndex, @event.Summary, new Teacher(0));
-//                        Database.CoursesList.Add(course);
-//                        ++courseIndex;
-//                    }
+                    for (int i = 0; i < durationhours; i++)
+                    {
+
+                        var lectureCourse = Database.CoursesList.FirstOrDefault(c => c.Code == courseCode);
+
+                        var course = new Course(courseIndex, @event.Summary, new Teacher(0));
+                        //negeer it trends and talents
+                        if (!course.Code.Contains("EVAL") && !course.Code.Contains("internship") && !course.Code.Contains("_EX") && !course.Code.Contains("examen"))
+                        {
+                            //var course = new Course(courseIndex, @event.Summary, new Teacher(0));
+                            // startHour - 8 + duration(i)
+                            var lecturePeriod = Database.PeriodList.FirstOrDefault(p => p.Timeslot.TimeSlotIndex == startHour - 8 + i && p.Day.DayIndex == dayindex);
+                            //absoluteTimeslot = dayIndex * hoursPerDay + starttime + i
+                            var absoluteTimeslot = lecturePeriod.Day.DayIndex * HoursPerDay + (startHour - 8) + i;
+                            var lectureRoom = Database.RoomList.FirstOrDefault(room => room.Code == @event.Location);
+
+
+                            var lecture = new Lecture(lectureIndex, lectureCourse, false, lecturePeriod, absoluteTimeslot, lectureRoom);
+                            Database.LectureList.Add(lecture);
+                            ++lectureIndex;
+                        }
+                    }
+
                 }
-
-
             }
 
 
             CreateXML();
         }
 
+        private void CreateBaseData()
+        {
+            //curricula
+            var newCurriculum = new Curriculum
+            {
+                Id = 0,
+                Code = "DigX3_Bizit",
+                CoursesInCurriculum = 36
+            };
+            Database.CurriculumList.Add(newCurriculum);
 
+            newCurriculum = new Curriculum
+            {
+                Id = 1,
+                Code = "DigX3_Network",
+                CoursesInCurriculum = 34
+            };
+            Database.CurriculumList.Add(newCurriculum);
+
+            newCurriculum = new Curriculum
+            {
+                Id = 2,
+                Code = "DigX3_Software",
+                CoursesInCurriculum = 34
+            };
+            Database.CurriculumList.Add(newCurriculum);
+
+            //timeslots
+            for (int i = 0; i < HoursPerDay; i++)
+            {
+                Timeslot timeslot = new Timeslot(i);
+                Database.Timeslots.Add(timeslot);
+            }
+        }
 
 
         private string regex_filter_Singleteacher(string input)
@@ -250,114 +327,151 @@ namespace ICS_Optaplanner_converter
 
         private void CreateXML()
         {
-
-            var newCurriculum = new Curriculum
-            {
-                Id = 0,
-                Code = "DigX3_Bizit",
-                CoursesInCurriculum = 36
-            };
-            Database.CurriculumList.Add(newCurriculum);
-
-            newCurriculum = new Curriculum
-            {
-                Id = 1,
-                Code = "DigX3_Network",
-                CoursesInCurriculum = 34
-            };
-            Database.CurriculumList.Add(newCurriculum);
-
-            newCurriculum = new Curriculum
-            {
-                Id = 2,
-                Code = "DigX3_",
-                CoursesInCurriculum = 34
-            };
-            Database.CurriculumList.Add(newCurriculum);
-
-
             var courseSchedule = new CourseSchedule
             {
                 Id = 0,
-                Name = "EHB",
+                Name = "EHB"
             };
 
 
             //new XAttribute("OrderNumber", teacher.),
-            var xml = new XElement("CourseSchedule",
+            XElement xml = new XElement("CourseSchedule",
                 new XAttribute("id", _xmlId++),
                 new XElement("id", courseSchedule.Id),
-                new XElement("code", courseSchedule.Name),
-                new XElement("teacherList",
-                    new XAttribute("id", _xmlId++),
-                    Database.TeacherList.Select(teacher =>
+                new XElement("name", courseSchedule.Name),
+                new XElement("teacherList", new XAttribute("id", _xmlId++)));
+
+
+            //create teacherlist
+            XElement teacherList = xml.Element("teacherList");
+            teacherList.Add(
+                Database.TeacherList.Select(teacher =>
+                {
+                    teacher.XmlId = _xmlId;
+                    return new XElement("Teacher",
+                        new XAttribute("id", _xmlId++),
+                        new XElement("id", teacher.Id),
+                        new XElement("code", teacher.Code)
+                    );
+                })
+            );
+
+            //create curriculumList
+            xml.Add(new XElement("curriculumList", new XAttribute("id", _xmlId++)));
+            xml.Element("curriculumList").Add(
+                Database.CurriculumList.Select(curriculum =>
                     {
-                        teacher.XmlId = _xmlId;
-                        return new XElement("Teacher",
+                        curriculum.XmlId = _xmlId;
+                        return new XElement("Curriculum",
                             new XAttribute("id", _xmlId++),
-                            new XElement("id", teacher.Id),
-                            new XElement("code", teacher.Code)
+                            new XElement("id", curriculum.Id),
+                            new XElement("code", curriculum.Code),
+                            new XElement("coursesInCurriculum", curriculum.CoursesInCurriculum)
                         );
-                    })
-                ),
-                new XElement("curriculumList",
-                    new XAttribute("id", _xmlId++),
-                    courseSchedule.Curricula.Select(curriculum =>
-                        {
-                            curriculum.XmlId = _xmlId;
-                            return new XElement("Curriculum",
-                                new XAttribute("id", _xmlId++),
-                                new XElement("id", curriculum.Id),
-                                new XElement("code", curriculum.Code),
-                                new XElement("coursesInCurriculum", curriculum.CoursesInCurriculum)
-                            );
-                        }
-                    )
-                ),
-                new XElement("courseList",
-                    new XAttribute("id", _xmlId++),
-                    Database.CoursesList.Select(course =>
-                        {
-                            course.XmlId = _xmlId;
-                            //build coure structure
-                            return XmlBuilder.MakeCourseXml(course, ref _xmlId);
-                        }
-                    )
-                ),
-                new XElement("courseDependencyList", new XAttribute("id", _xmlId++)),
-                new XElement("teacherGroups", new XAttribute("id", _xmlId++),
-                    Database.TeacherGroupList.Select(teacherGroup =>
+                    }
+                ));
+
+            //create courseList
+            xml.Add(new XElement("courseList", new XAttribute("id", _xmlId++)));
+            xml.Element("courseList").Add(
+                Database.CoursesList.Select(course =>
+                    {
+                        course.XmlId = _xmlId;
+                        //build coure structure
+                        return XmlBuilder.MakeCourseXml(course, ref _xmlId);
+                    }
+                ));
+
+
+            xml.Add(new XElement("courseDependencyList", new XAttribute("id", _xmlId++)));
+
+            //create teacherGroups
+            xml.Add(new XElement("teacherGroups", new XAttribute("id", _xmlId++)));
+            xml.Element("teacherGroups").Add(
+                Database.TeacherGroupList.Select(teacherGroup =>
                     {
                         teacherGroup.XmlId = _xmlId;
                         return new XElement("TeacherGroup", new XAttribute("id", _xmlId++),
-                                    new XElement("id", teacherGroup.Id),
-                                    new XElement("groupedTeachers", teacherGroup.Code),
-                                    new XElement("individualTeacher", teacherGroup.SubCode)
+                            new XElement("id", teacherGroup.Id),
+                            new XElement("groupedTeachers", teacherGroup.Code),
+                            new XElement("individualTeacher", teacherGroup.SubCode)
                         );
                     }
-                    )
-                ),
-                new XElement("dayList", new XAttribute("id", _xmlId++),
-                    Database.DayList.Select(day =>
-                        {
-                            day.XmlId = _xmlId;
-                           
-                            if (day.Id == 0)
-                            {
-                                //build day structure (first)
-                                return new XElement("Day", new XAttribute("id", _xmlId++));
-                            }
-                            else
-                            {
-                                //build day structure (others)
-                                return XmlBuilder.MakeDay(day, ref _xmlId);
-                            }
-                        }
-                    )
-                )
+                ));
 
-            );
+            //create dayList
+            xml.Add(new XElement("dayList", new XAttribute("id", _xmlId++)));
+            xml.Element("dayList").Add(
+                Database.DayList.Select(day =>
+                {
+                    day.XmlId = _xmlId;
+                    if (day.Id == 0)
+                        return XmlBuilder.MakeFristDay(day, ref _xmlId);
+                    else
+                        return XmlBuilder.MakeNextDay(day, ref _xmlId);
+                }
+            ));
 
+            //create timeslotList
+            //--_xmlId;
+            xml.Add(new XElement("timeslotList", new XAttribute("id", _xmlId++)));
+            xml.Element("timeslotList").Add(
+                Database.Timeslots.Select(timeslot =>
+                    {
+                        return new XElement("Timeslot", new XAttribute("reference", timeslot.XmlId));
+
+                        //Database.DayList[0].PeriodList[period.Timeslot.TimeSlotIndex].Timeslot.XmlId))
+
+                    }
+                ));
+
+
+            //create periodlist
+            xml.Add(new XElement("periodList", new XAttribute("id", _xmlId++)));
+
+            foreach (var day in Database.DayList)
+            {
+                foreach (var period in day.PeriodList)
+                {
+                    xml.Element("periodList").Add(
+                        new XElement("Period", new XAttribute("reference", period.XmlId)));
+                }
+            }
+
+            //create roomList
+            xml.Add(new XElement("roomList", new XAttribute("id", _xmlId++)));
+            foreach (var room in Database.RoomList)
+            {
+                xml.Element("roomList").Add(XmlBuilder.MakeRoomXML(room, _xmlId++));
+            }
+
+
+            //create unavailableDayList
+            xml.Add(new XElement("unavailableDayList", new XAttribute("id", _xmlId++)));
+
+            //create unavailablePeriodAllCoursesList
+            xml.Add(new XElement("unavailablePeriodAllCoursesList", new XAttribute("id", _xmlId++)));
+
+            //create unavailablePeriodPenaltyList
+            xml.Add(new XElement("unavailablePeriodPenaltyList", new XAttribute("id", _xmlId++)));
+
+            //create UnavailableCurriculumDaysList
+            xml.Add(new XElement("UnavailableCurriculumDaysList", new XAttribute("id", _xmlId++)));
+
+
+            //create lectureList
+            xml.Add(new XElement("lectureList", new XAttribute("id", _xmlId++)));
+            xml.Element("lectureList").Add(
+                Database.LectureList.Select(lecture =>
+                    {
+                        return XmlBuilder.MakeLectureXML(lecture, _xmlId++);
+                    }
+                ));
+
+
+
+            //create score
+            xml.Add(new XElement("score", "0hard/0medium/0soft", new XAttribute("id", _xmlId++)));
 
             // Create the XmlDocument.
             var doc = new XmlDocument();
@@ -382,6 +496,5 @@ namespace ICS_Optaplanner_converter
             writer.Formatting = Formatting.Indented;
             doc.Save(writer);
         }
-
     }
 }
